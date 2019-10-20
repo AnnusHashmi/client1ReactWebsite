@@ -1,0 +1,20 @@
+.serviceCardHeading {
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.serviceCardtext{
+
+    text-align: center;
+}
+.align-icon{
+    padding-left: 110px;
+    padding-bottom: 20px;
+}
+.card-padding{
+    padding: 20px;
+}
+.background-color{
+    background-color: rgba(21, 122, 21, 0.829);
+    color: whitesmoke;
+}

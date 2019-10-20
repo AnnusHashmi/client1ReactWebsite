@@ -1,0 +1,24 @@
+.container-games{
+    padding: 0.1em 40px;
+}
+
+.section-padding-green{
+    background-color: rgba(21, 122, 21, 0.829);
+    padding: 100px 0px; 
+}
+.section-padding-White{
+    padding: 100px 0px; 
+}
+
+.heading-allingment{
+    padding: 70px 0px;
+    text-align: center;
+}
+.heading-Whitesmoke{
+    color: whitesmoke;
+}
+.heading-green{
+    color:  rgba(21, 122, 21, 0.829);
+}
+
+
