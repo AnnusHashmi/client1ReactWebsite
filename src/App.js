@@ -1,5 +1,5 @@
 import React from 'react';
-import  Admin from './Screens/admin';
+import  AboutUs from './Screens/AboutUs/about'
 
 function App() {
   return (
@@ -7,8 +7,7 @@ function App() {
 
           <p>WELCOME TO MY FIRST CLIENT WORK!</p>
           
-          <Admin></Admin>
-  
+          <AboutUs></AboutUs>
     </div>
   );
 }

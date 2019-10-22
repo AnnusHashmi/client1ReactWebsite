@@ -1,0 +1,48 @@
+.img-right{
+    float: right;
+    width: 90%;
+    height: 120%;
+  }
+
+.heading-style{
+
+    padding-bottom: 100px;
+    color: rgba(21, 122, 21, 0.829);
+}
+
+.team-heading-style{
+
+    padding-bottom: 50px;
+    color: whitesmoke;
+    text-align: center;
+}
+.about-spacing{
+    padding-bottom: 250px;
+}
+.word-spacing{
+    word-spacing: 10px;
+    text-align: justify;
+    line-height: 1.6;
+}
+.container-games{
+    background-color: rgba(21, 122, 21, 0.829);
+    padding: 0.1em 30px;
+}
+.team-padding{
+    padding: 50px 70px;
+    text-align: center;
+}
+
+.card-style{
+    background-color: rgba(21, 122, 21, 0.829);
+    color: whitesmoke;
+    border-style: none;
+}
+.picture-shadow{
+    box-shadow: 15px 15px;
+}
+
+.card-shadow {
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.486), 0 10px 25px 0 rgba(0, 0, 0, 0.486);
+    text-align: center;
+  }
