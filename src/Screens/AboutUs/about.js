@@ -9,6 +9,7 @@ import sirraza from '../Images/sirraza.png'
 import './about.css'
 import team1 from '../Images/intro-bg.jpg'
 import Card from 'react-bootstrap/Card'
+import Footer from '../footer';
 
 function AboutUs() {
 
@@ -127,6 +128,7 @@ function AboutUs() {
                 <Col sm={1}></Col>
                 </Row>               
             </div>
+            <Footer></Footer>
         </div>
     );
 }

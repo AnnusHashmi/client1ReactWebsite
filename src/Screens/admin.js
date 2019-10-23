@@ -3,7 +3,7 @@ import ServiceCard from '../Components/serviceCards'
 import './post-audit.css'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-
+import Footer from './footer'
 
 function Admin() {
 
@@ -27,6 +27,7 @@ function Admin() {
 
                         </Row>
                     </div>
+                    <Footer></Footer>
             </div>
 
         </div>

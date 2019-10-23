@@ -25,7 +25,7 @@
     line-height: 1.6;
 }
 .container-games{
-    background-color: rgba(21, 122, 21, 0.829);
+    background-color: #43740A;    
     padding: 0.1em 30px;
 }
 .team-padding{
@@ -34,7 +34,7 @@
 }
 
 .card-style{
-    background-color: rgba(21, 122, 21, 0.829);
+    background-color: #43740A;    
     color: whitesmoke;
     border-style: none;
 }

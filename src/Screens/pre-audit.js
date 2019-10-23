@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col'
 import ServiceCard from '../Components/serviceCards'
 import './pre-audit.css'
 import ServiceCardGreen from '../Components/serviceCardGreen'
+import Footer from './footer';
 
 
 function PreAudit () {
@@ -105,6 +106,7 @@ function PreAudit () {
             </div>
         </div>
 
+        <Footer></Footer>
 
     </div>
        

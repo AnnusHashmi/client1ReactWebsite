@@ -1,0 +1,14 @@
+.heading-style{
+    text-align: center;
+    color: #43740A; 
+    padding-bottom: 90px;
+}
+.chart-align{
+    width: 100%;
+    height: 80%;
+    align-content: center;
+    align-items: center;
+}
+.container-games{ 
+    padding: 0.1em 30px;
+}

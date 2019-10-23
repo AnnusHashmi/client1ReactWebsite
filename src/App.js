@@ -1,13 +1,10 @@
 import React from 'react';
-import  AboutUs from './Screens/AboutUs/about'
-
+import  PreAudit from './Screens/pre-audit'
 function App() {
   return (
     <div className="App">
-
-          <p>WELCOME TO MY FIRST CLIENT WORK!</p>
-          
-          <AboutUs></AboutUs>
+          <p>hi</p>
+          <PreAudit></PreAudit>
     </div>
   );
 }

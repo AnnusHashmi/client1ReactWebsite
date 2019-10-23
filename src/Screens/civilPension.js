@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import './post-audit.css'
 import ServiceCard from '../Components/serviceCards'
-
+import Footer from './footer'
 
 function CivilPension() {
 
@@ -27,6 +27,7 @@ function CivilPension() {
 
                         </Row>
                     </div>
+                    <Footer></Footer>
             </div>
 
         </div>

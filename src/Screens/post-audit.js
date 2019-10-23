@@ -3,6 +3,7 @@ import ServiceCard from '../Components/serviceCards'
 import './post-audit.css'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Footer from './footer';
 
 
 function PostAudit() {
@@ -28,7 +29,7 @@ function PostAudit() {
                         </Row>
                     </div>
             </div>
-
+            <Footer></Footer>
         </div>
     )
 }
