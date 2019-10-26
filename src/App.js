@@ -1,10 +1,11 @@
 import React from 'react';
 import  PreAudit from './Screens/pre-audit'
+import Navigation from './config/router'
+
 function App() {
   return (
     <div className="App">
-          <p>hi</p>
-          <PreAudit></PreAudit>
+         <Navigation/>
     </div>
   );
 }

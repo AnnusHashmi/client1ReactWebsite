@@ -27,7 +27,6 @@ function Admin() {
 
                         </Row>
                     </div>
-                    <Footer></Footer>
             </div>
 
         </div>
