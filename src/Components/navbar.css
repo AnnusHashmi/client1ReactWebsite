@@ -1,18 +1,17 @@
 .navbar-div{
     display:flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: center;
     padding: 10;
     width: 100%;
     /* border:1px solid black; */
-    height:130px;
 
 
 }
 .logo-div{
     padding: 15px;
-    width: 70px;
+    width: 80px;
     /* border: 1px solid rgba(0, 0, 0, 0.534); */
 }
 .logo-img{
@@ -25,6 +24,11 @@ flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 width: 100%;
+/* border:1px solid red; */
+justify-content: flex-start;
+align-items: center;
+padding: 10;
+align-self: center;
 
 
 }
@@ -70,3 +74,88 @@ flex-direction: row;
 padding: 10px;
 
 }
+.toggle{
+    background-color: white;
+}
+
+.menu-div{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+     padding-right:30;
+     padding-left:30;
+    align-items: center; 
+    /* border: '1px solid yellow'; */
+    background-color: #e4e4e4;
+}
+.bt-nav{
+justify-content: flex-start;
+align-items: center;
+width:100%;
+/* border:1px solid green; */
+}
+
+.dropdowns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dropLinks{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    align-self: flex-end;
+    /* border: 1px solid black; */
+}
+
+.title-btn-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+@media only screen and (max-width: 860px) {
+    .nav-title{
+        font-size: 20px;
+        text-align: center;
+    }
+} 
+
+  @media only screen and (max-width: 710px) {
+    .nav-btn-div{
+        width: 150px;
+    }
+    .nav-btn{
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .nav-btn-div{
+        width: 100px;
+        margin:0px
+
+    }
+    .nav-btn{
+        font-size: 12px;
+        padding: 5px;
+    }
+    
+} 
+
+@media only screen and (max-width: 580px) {
+    .nav-title{
+        font-size: 16px;
+    }
+    
+} 
+  
