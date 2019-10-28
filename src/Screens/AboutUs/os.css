@@ -1,7 +1,16 @@
+
 .heading-style{
-    text-align: center;
+    width: 100%;
     color: #43740A; 
-    padding-bottom: 90px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
 }
 .chart-align{
     width: 100%;
@@ -11,4 +20,5 @@
 }
 .container-games{ 
     padding: 0.1em 30px;
+    background-color: white;
 }

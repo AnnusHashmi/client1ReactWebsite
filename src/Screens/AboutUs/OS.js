@@ -3,12 +3,12 @@ import os from '../Images/os.png'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import './os.css'
-import Footer from '../footer'
 function Organistion() {
 
     return(
         <div className = 'container-games'>
-            <div> <h1  className = 'heading-style'>Organistional Setup</h1></div>
+            <div className='heading-div'> <div  className = 'heading-style'>Organistional Setup</div>
+            </div>
             <div className = 'chart-align'>
                 <Row>
 
@@ -19,7 +19,6 @@ function Organistion() {
                     <Col lg = {1} sm={1}> </Col>
                 </Row>
             </div>
-            <Footer></Footer>
         </div>
     );
 }

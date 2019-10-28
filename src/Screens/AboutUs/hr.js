@@ -3,8 +3,8 @@ import chart from '../Images/chart.png'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import './hr.css'
-function HumanResource() {
 import Footer from '../footer'
+    function HumanResource() {
 
     return(
         <div className = 'container-games'>

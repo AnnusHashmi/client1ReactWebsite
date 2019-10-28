@@ -1,18 +1,22 @@
-.serviceCardHeading {
-    text-align: center;
-    padding-bottom: 30px;
+.main-div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
-.serviceCardtext{
-
-    text-align: center;
-}
-.align-icon{
-    padding-left: 110px;
-    padding-bottom: 20px;
-}
-.card-padding{
+.icon-div{
     padding: 20px;
+    color: #43740A;
 }
-.green-text{
-    color:  #43740A;    
+.heading{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    color: #43740A;
+}
+.text{
+    font-size: 16px;
+  text-align: center;
+    
 }

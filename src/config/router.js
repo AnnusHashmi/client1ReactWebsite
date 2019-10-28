@@ -10,6 +10,9 @@ import Footer from '../Screens/footer'
 import Crousel from '../Screens/Crousel'
 import Home from '../Screens/Home' 
 import Ventures from '../Screens/ventures'
+import AboutUs from '../Screens/AboutUs/about'
+import HumanResource from '../Screens/AboutUs/hr'
+import Organistion from '../Screens/AboutUs/OS'
 import { BrowserRouter as Router , Route, Link} from 'react-router-dom'
 
 export default class Navigation extends Component{
@@ -22,15 +25,19 @@ state={
     return(
         <Router>
             <MyNavbar/>
-            <div>
+            <div style={{backgroundColor:'white'}}>
 
-                <Route exact path='/' component={Ventures}/>
-                <Route exact path='/Home' component={Home}/>
+                <Route exact path='/' component={Home}/>
+                <Route exact path='/Ventures' component={Ventures}/>
                 <Route exact path='/Media' component={Media}/>
                 <Route path='/services/preaudit' component={PreAudit}/>
-                <Route path='/civilPension' component={CivilPension}/>
+                <Route path='/services/civilPension' component={CivilPension}/>
                 <Route path='/services/internalaudit' component={InternalAudit} />
                 <Route path='/services/Postaudit' component={PostAudit}/>
+                <Route path='/services/adminSection' component={Admin}/>
+                <Route path='/aboutus/teamMembers' component={AboutUs}/>
+                <Route path='/aboutus/humanResource' component={HumanResource}/>
+                <Route path='/aboutus/organizationsetup' component={Organistion}/>
                 <Route path='/Crousel' component={Crousel}/>
                 
                 {/* <Route path='/dashboard' render={(props)=><Dashboard {...props} dashboardon={()=>{this.setState({dashboard:true,RestDashboard:true})}} dashboardoff={()=>{

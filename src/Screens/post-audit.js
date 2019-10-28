@@ -29,7 +29,6 @@ function PostAudit() {
                         </Row>
                     </div>
             </div>
-            <Footer></Footer>
         </div>
     )
 }

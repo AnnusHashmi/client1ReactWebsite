@@ -33,28 +33,28 @@ class MyNavbar extends React.Component {
                             <Nav.Link  onClick={this.goto.bind(this,'/')} className='links' href="#home">Home</Nav.Link>
 
                             <NavDropdown className='dropdowns' title="About Us" id="collasible-nav-dropdown">
-                                <NavDropdown.Item onClick={this.goto.bind(this,'/')} className='dropLinks' href="#action/3.1">Team Members</NavDropdown.Item>
-                                <NavDropdown.Item className='dropLinks' href="#action/3.2">Human Resource</NavDropdown.Item>
-                                <NavDropdown.Item className='dropLinks' href="#action/3.3">Organizational Setup</NavDropdown.Item>
+                                <NavDropdown.Item onClick={this.goto.bind(this,'/aboutus/teamMembers')} className='dropLinks' href="#">Team Members</NavDropdown.Item>
+                                <NavDropdown.Item onClick={this.goto.bind(this,'/aboutus/humanResource')} className='dropLinks' href="#">Human Resource</NavDropdown.Item>
+                                <NavDropdown.Item onClick={this.goto.bind(this,'/aboutus/organizationsetup')} className='dropLinks' href="#">Organizational Setup</NavDropdown.Item>
                                 {/* <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
                             </NavDropdown>
 
                             <NavDropdown className='dropdowns' title="Services" id="basic-nav-dropdown">
-                                <NavDropdown.Item onClick={this.goto.bind(this,'/services/preaudit')} className='dropLinks' href="#action/3.1">Pre Audit</NavDropdown.Item>
-                                <NavDropdown.Item onClick={this.goto.bind(this,'/services/postaudit')} className='dropLinks' href="#action/3.2">Post Audit</NavDropdown.Item>
-                                <NavDropdown.Item className='dropLinks' href="#action/3.3">Civil Pension</NavDropdown.Item>
-                                <NavDropdown.Item className='dropLinks' href="#action/3.3">Internal Audit</NavDropdown.Item>
-                                <NavDropdown.Item className='dropLinks' href="#action/3.3">Admin Section</NavDropdown.Item>
+                                <NavDropdown.Item onClick={this.goto.bind(this,'/services/preaudit')} className='dropLinks' href="#">Pre Audit</NavDropdown.Item>
+                                <NavDropdown.Item onClick={this.goto.bind(this,'/services/postaudit')} className='dropLinks' href="#">Post Audit</NavDropdown.Item>
+                                <NavDropdown.Item onClick={this.goto.bind(this,'/services/civilPension')} className='dropLinks' href="#">Civil Pension</NavDropdown.Item>
+                                <NavDropdown.Item onClick={this.goto.bind(this,'/services/internalaudit')} className='dropLinks' href="#">Internal Audit</NavDropdown.Item>
+                                <NavDropdown.Item onClick={this.goto.bind(this,'/services/adminSection')} className='dropLinks' href="#">Admin Section</NavDropdown.Item>
                                 {/* <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
                             </NavDropdown>
 
                             <Nav.Link className='links' href="#link">Downloads</Nav.Link>
 
-                            <Nav.Link className='links' href="#link">Media</Nav.Link>
+                            <Nav.Link onClick={this.goto.bind(this,'/services/Media')} className='links' href="#link">Media</Nav.Link>
 
-                            <Nav.Link className='links' href="#link">Ventures</Nav.Link>
+                            <Nav.Link onClick={this.goto.bind(this,'/Ventures')} className='links' href="#link">Ventures</Nav.Link>
 
                             <Nav.Link className='links' href="#link">Facilation Center</Nav.Link>
                             

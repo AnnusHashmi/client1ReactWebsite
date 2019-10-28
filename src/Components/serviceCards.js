@@ -6,23 +6,19 @@ import './serviceCards.css'
 function ServiceCard(props) {
     console.log(props);
     return(
-        <div className = "card-padding green-text ">
-            <Card>
-                <Card.Body>
-                    <div className = "align-icon"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></div>
-                    <div className = "serviceCardHeading">
-                         <Card.Title><h4> {props.title} </h4></Card.Title>
+        <div className = "main-div ">
+                    <div className = "icon-div">
+                        <i className='icon' class="fa fa-check-circle fa-3x" aria-hidden="true"></i>
+                    </div>
+                    <div className = "heading">
+                         {props.title} 
                     </div>
 
-                    <div className = "serviceCardtext">
-                        <Card.Text>
+                    <div className = "text">
                             { props.text }
-                        </Card.Text>
                     </div>
                         
-                </Card.Body>
-               
-            </Card>
+                
         </div>
     )
 }

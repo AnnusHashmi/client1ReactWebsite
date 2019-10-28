@@ -106,7 +106,6 @@ function PreAudit () {
             </div>
         </div>
 
-        <Footer></Footer>
 
     </div>
        
