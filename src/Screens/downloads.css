@@ -1,0 +1,80 @@
+
+.downloads-first-block{
+    background-color: #547d28;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.downloads-heading{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.downloads-subheading{
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 10px;
+
+}
+
+.downloads-sec-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #547d28;
+    /* border: 1px solid; */
+}
+.downloads-sec-heading{
+    font-size: 45px;
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding: 30px;
+    
+}
+.downloads-third-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    padding: 30px;
+}
+.checklist-heading-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F2C947;
+    height: 300px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.checklist-div{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+@media  only screen and (max-width:450px){
+    
+    .downloads-heading{
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .downloads-subheading{
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        
+        }
+
+}

@@ -1,8 +1,9 @@
 
-.first-block{
+.home-first-block{
     background-color: white;
+    display: flex;
 }
-.title-div{
+.home-title-div{
     background-image: url('../assets/bluredopac.jpg');
   /* filter: blur(5px); */
   margin-top: 20px;
@@ -18,7 +19,7 @@
   align-items: center;
 height: 100%;
 }
-.title{
+.home-title{
     color:black;
     background-color: rgba(0,0,0,0.4); /* Fallback color */
     background-color: rgba(0,0,0,0); /* Black w/opacity/see-through */
@@ -30,20 +31,21 @@ height: 100%;
     align-items: center;
     height:100%;
 }
-.title1{
+.home-title1{
+    font-family: 'Times New Roman', Times, serif;
     color:black;
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     font-style: italic;
     font-weight: bold;
 
 }
-.title2{
+.home-title2{
     color:black;
     font-size: 60px;
 
 }
-.subtitle-div{
+.home-subtitle-div{
     padding: 20px;
     color:black;
 }
@@ -163,11 +165,65 @@ height: 100%;
     text-align: center;
     padding: 10px;
 }
+.home-noti-div{
+    border: 1px solid black;
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    margin:10px;
+    flex-wrap: wrap;
+}
+.alerts-div{
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+    
+}
+.orders-div{
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+.orders-heading, .alerts-heading, .links-heading{
+    border:1px solid black;
+    background-color:  #547d28;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+.orders{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.alerts, .imp-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.imp-links-div{
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+
 @media only screen and (max-width:1000px){
-.title1{
+.home-title1{
     font-size: 50px;
 }
-.title2{
+.home-title2{
     font-size: 50px;
 }
 
@@ -193,10 +249,10 @@ height: 100%;
 
 
 @media only screen and (max-width: 800px) {
-    .title1{
+    .home-title1{
         font-size: 40px;
     }
-    .title2{
+    .home-title2{
         font-size: 40px;
     }
     .third-nested-block{
@@ -216,11 +272,14 @@ height: 100%;
 }
 
 @media only screen and (max-width:650px){
-    .title1{
+    .home-title1{
         font-size: 30px;
     }
-    .title2{
+    .home-title2{
         font-size: 30px;
+    }
+    .home-subtitle-div{
+        text-align: center;
     }
     .contact-div{
         width: 100%;

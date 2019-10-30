@@ -50,9 +50,9 @@ class MyNavbar extends React.Component {
                                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
                             </NavDropdown>
 
-                            <Nav.Link className='links' href="#link">Downloads</Nav.Link>
+                            <Nav.Link onClick={this.goto.bind(this,'/downloads')} className='links' href="#link">Downloads</Nav.Link>
 
-                            <Nav.Link onClick={this.goto.bind(this,'/services/Media')} className='links' href="#link">Media</Nav.Link>
+                            <Nav.Link onClick={this.goto.bind(this,'/Media')} className='links' href="#link">Media</Nav.Link>
 
                             <Nav.Link onClick={this.goto.bind(this,'/Ventures')} className='links' href="#link">Ventures</Nav.Link>
 

@@ -13,6 +13,7 @@ import Ventures from '../Screens/ventures'
 import AboutUs from '../Screens/AboutUs/about'
 import HumanResource from '../Screens/AboutUs/hr'
 import Organistion from '../Screens/AboutUs/OS'
+import Downloads from '../Screens/downloads'
 import { BrowserRouter as Router , Route, Link} from 'react-router-dom'
 
 export default class Navigation extends Component{
@@ -30,6 +31,7 @@ state={
                 <Route exact path='/' component={Home}/>
                 <Route exact path='/Ventures' component={Ventures}/>
                 <Route exact path='/Media' component={Media}/>
+                <Route exact path='/downloads' component={Downloads}/>
                 <Route path='/services/preaudit' component={PreAudit}/>
                 <Route path='/services/civilPension' component={CivilPension}/>
                 <Route path='/services/internalaudit' component={InternalAudit} />

@@ -10,13 +10,13 @@ function Home() {
 
         <div className="main-container">
 
-            <div className="first-block">
-                <div className="title-div">
-                <div className='title'>
-                <div className='title1'>Controller Military Accounts </div>
-                <div className='title2'>(Quetta Command)</div>
-                <div className='subtitle-div'>
-                    <h3 className='subtitle'>Expect Great Changes</h3>
+            <div className="home-first-block">
+                <div className="home-title-div">
+                <div className='home-title'>
+                <div className='home-title1'>Controller Military Accounts </div>
+                <div className='home-title2'>(Quetta Command)</div>
+                <div className='home-subtitle-div'>
+                    <h3 className='home-subtitle'>Expect Great Changes</h3>
                 </div>
                 <div className='btn-div' >
                     <button className='btn'>
@@ -25,8 +25,27 @@ function Home() {
                 </div>
                 </div>
                 </div>
-                
                 </div>
+                <div className='home-noti-div'>
+                    <div class='alerts-div'>
+                        <div className='alerts-heading'>News update Alerts</div>
+                        <div className='alerts'>
+                            No Alerts right now
+                        </div>
+                    </div>
+                    <div className='imp-links-div'>
+                        <div className='links-heading'>important links</div>
+                        <div className='imp-links'>
+                            No links right now
+                        </div>
+                    </div>
+                    <div className='orders-div'>
+                         <div className='orders-heading'>Orders</div>
+                    <div className='orders'>
+                         No orders right now 
+                    </div>
+                    </div>
+                    </div>
                 <div className='sec-block'> 
                     <div className='image-div'>
                         <img src='https://static.wixstatic.com/media/8011f8_01e4818052854700ab9577c0eeae2145~mv2_d_2100_1500_s_2.jpg/v1/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01/5x7%20(1)_JPG.webp'

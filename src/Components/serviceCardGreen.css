@@ -4,6 +4,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500px;
     height: 80px;
+ 
 
 }
 .serviceCardtext{
@@ -11,11 +12,16 @@
     text-align: center;
 }
 .align-icon{
-    padding-left: 110px;
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 .card-padding{
     padding: 10px;
+    /* border: 1px solid black; */
+    margin:20px;
 }
 .background-color{
     background-color:  #547d28;    

@@ -1,46 +1,27 @@
 import React from "react";
 import { MDBMask, MDBView, MDBContainer, MDBCol } from "mdbreact";
-import '../assets/image1.jpeg'
+import './HoverImage.css'
 
 
 class HoverImage extends React.Component {
-    constructor(){
-        super()
-        this.state={
-            photos:[
-            '../assets/image1.jpeg',
-            '../assets/image2.jpeg',
-            '../assets/image3.jpeg',
-            '../assets/image4.jpeg',
-            '../assets/image5.jpeg',
-            '../assets/image6.jpeg',
-            '../assets/image7.jpeg',
-            '../assets/image8.jpeg',
-            '../assets/image9.jpeg',
-            '../assets/image10.jpeg',
-            '../assets/image11.jpeg',
-            '../assets/image12.jpeg',
-            '../assets/image13.jpeg',
-            '../assets/image14.jpeg',
-        ]
-        }
-    }
+
   render() {
     return (
-      <MDBContainer className="mt-5">
-           <div style={{display:'flex',flexDirection:'row',flexWrap:'wrap'}}>
-              <MDBView hover>
-                <img
-                  src={this.props.source}
-                  className="img-fluid"
-                  alt=""
-                />
-                <MDBMask className="flex-center" overlay="red-strong">
-                  <p className="white-text">Strong overlay</p>
-                </MDBMask>
-              </MDBView>
-            </div>          
-      </MDBContainer>
+      <div class="hoverimage-container">
+  <img src={require(`../assets/${this.props.source}.jpeg`)} alt="Avatar" class="hoverimage"
+  style={{width:'100%',height:'100%'}}
+   />
+  <div class="middle">
+    <div class="text">
+      <div className='heart-icon-div'>
+    <i className='heart-icon' class="fa fa-heart-o  fa-2x" aria-hidden="true"></i>
+      </div>
+    <div className='share-icon-div'>
+    <i className='share-icon' class="fa fa-share-alt  fa-2x" aria-hidden="true"></i>
+    </div>
+    </div>
+  </div>
+    </div>
     );
   }
 }

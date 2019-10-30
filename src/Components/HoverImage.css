@@ -1,0 +1,50 @@
+.hoverimage-container {
+    position: relative;
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+    border:2px solid white;
+  }
+  
+  .hoverimage {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden; 
+    width: 100%;
+}
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* border: 1px solid orange; */
+    width:100%;
+    height: 100%;
+   
+  }
+  
+  .hoverimage-container:hover .hoverimage {
+    opacity: 0.3;
+  }
+  
+  .hoverimage-container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+/* border:1px solid red; */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+  }
+  .heart-icon-div{
+      padding: 10px;
+  }
+  .share-icon-div{
+      padding: 10px;
+  }

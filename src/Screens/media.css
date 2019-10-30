@@ -1,14 +1,16 @@
-.first-block{
+.media-first-block{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background-color: #F2C947;
     height: 600px;
+    background-image: none;
     flex-direction: column;
 }
 
-.title{
+.media-title{
     font-size: 80px;
     font-family: 'Times New Roman', Times, serif;
     padding: 30px;
@@ -18,10 +20,14 @@
 .subtitle{
     font-family: 'Times New Roman', Times, serif;
 }
+.media-title-div{
+background-image: none;
+}
 
-.photos-div{
-    height: 500px;
+.media-photos-div{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
 }
