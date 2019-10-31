@@ -27,6 +27,7 @@ function Home() {
                 </div>
                 </div>
                 <div className='home-noti-div'>
+                    <div className='imp-alert-div'>
                     <div class='alerts-div'>
                         <div className='alerts-heading'>News update Alerts</div>
                         <div className='alerts'>
@@ -34,10 +35,11 @@ function Home() {
                         </div>
                     </div>
                     <div className='imp-links-div'>
-                        <div className='links-heading'>important links</div>
+                        <div className='links-heading'>Important links</div>
                         <div className='imp-links'>
                             No links right now
                         </div>
+                    </div>
                     </div>
                     <div className='orders-div'>
                          <div className='orders-heading'>Orders</div>
