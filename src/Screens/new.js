@@ -64,7 +64,7 @@ function News() {
                 <div className='compc-div'>
                     <div className='compc-head'>Computer Courses</div>
                     <div className='compc'>
-
+                        hello world
                     </div>    
                 </div>
             </div>
