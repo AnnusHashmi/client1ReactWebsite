@@ -27,6 +27,9 @@
     color: white;
     text-decoration: none;
 }
+.card-padding:hover{
+    text-decoration: none;
+}
 .background-color{
     background-color:  #547d28;    
     color: whitesmoke;
