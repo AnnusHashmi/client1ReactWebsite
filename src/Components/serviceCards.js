@@ -6,7 +6,7 @@ import './serviceCards.css'
 function ServiceCard(props) {
     console.log(props);
     return(
-        <div className = "main-div ">
+        <a href={props.link} download className = "main-div ">
                     <div className = "icon-div">
                         <i className='icon' class="fa fa-check-circle fa-3x" aria-hidden="true"></i>
                     </div>
@@ -19,7 +19,7 @@ function ServiceCard(props) {
                     </div>
                         
                 
-        </div>
+        </a>
     )
 }
 

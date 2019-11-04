@@ -16,13 +16,18 @@ function News() {
             </div>
             <div className='news-sec-block'>
             <div className='news-sidebar'>
+                <div className='news-menu-div'>
             <div className='mati-heading'>Menu</div>
                 <a className='news-links' href='#pipfa'>PIPFA Notifications & Circulars </a>
-                <a className='news-links' href='#achievement'>Achievements</a>
+                {/* <a className='news-links' href='#achievement'>Achievements</a> */}
                 <a className='news-links' href='#tender'>Tender and Jobs Notifications</a>
+                </div>
+                <div className='news-mati-div'> 
+
                 <div className='mati-heading'>MATI Courses  Calender</div>
                 <a className='news-links' href='#shortCourses'>Short Courses</a>
                 <a className='news-links' href='#compCourses'>Computer Courses</a>
+                </div>
                 
             </div>
             <div id='pipfa' className='circulars-div'>
@@ -208,22 +213,22 @@ function News() {
                     <div className='compc-head'>Computer Courses</div>
                     <div className='compc'>
                     <div className='shortc-table-heads'>
-                    <div className='shortc-sno-head'>
+                    <div className='compc-sno-head'>
                     S. No.
                     </div>
-                    <div className='shortc-cname-head'>
+                    <div className='compc-cname-head'>
                     Course Name
                     </div>
-                    <div className='shortc-month-head'>
+                    <div className='compc-month-head'>
                     Month
                     </div>
-                    <div className='shortc-level-head'>
+                    <div className='compc-level-head'>
                     Level
                     </div>
-                    <div className='shortc-duration-head'>
+                    <div className='compc-duration-head'>
                     Duration
                     </div>
-                    <div className='shortc-date-head'>
+                    <div className='compc-date-head'>
                     Dates
                     </div>
                     <div className='compc-station-head'>
@@ -232,22 +237,22 @@ function News() {
                 </div>
                 {computerCourse.map((e)=>{
                    return <div className='shortc-table-items'>
-                    <div className='shortc-sno'>
+                    <div className='compc-sno'>
                     {e.sno}
                     </div>
-                    <div className='shortc-cname'>
+                    <div className='compc-cname'>
                     {e.name}
                     </div>
-                    <div className='shortc-month'>
+                    <div className='compc-month'>
                     {e.month}
                     </div>
-                    <div className='shortc-level'>
+                    <div className='compc-level'>
                     {e.level}
                     </div>
-                    <div className='shortc-duration'>
+                    <div className='compc-duration'>
                     {e.duration}
                     </div>
-                    <div className='shortc-date'>
+                    <div className='compc-date'>
                     {e.dates}
                     </div>
                     <div className='compc-station'>
@@ -259,43 +264,7 @@ function News() {
                 </div>
             </div>
 
-            <div id='achievement' className='achievements-div'>
-                <div className='achievements-heading'>
-                    Achievements
-                </div>
-                <div className='achievements'>
-
-                <div className='card'>
-                <div className='text-div'>
-                    <div className='text-title'>Tree Plantation</div>
-                    <div className='text-detail'>MAG Orders for Tree Plantation. . . .</div>
-                </div>
-                <div className='img-div'>
-                    <img className='img' src='https://static.wixstatic.com/media/0a8802f2cb234551bc855be44c0f34de.jpg/v1/fill/w_460,h_320,al_c,q_80,usm_0.66_1.00_0.01/Experts%20Panel.webp' />
-                </div>
-           </div>
-
-           <div className='card'>
-                <div className='text-div'>
-                    <div className='text-title'>Tree Plantation</div>
-                    <div className='text-detail'>MAG Orders for Tree Plantation. . . .</div>
-                </div>
-                <div className='img-div'>
-                    <img className='img' src='https://static.wixstatic.com/media/0a8802f2cb234551bc855be44c0f34de.jpg/v1/fill/w_460,h_320,al_c,q_80,usm_0.66_1.00_0.01/Experts%20Panel.webp' />
-                </div>
-           </div>
-
-           <div className='card'>
-                <div className='text-div'>
-                    <div className='text-title'>Tree Plantation</div>
-                    <div className='text-detail'>MAG Orders for Tree Plantation. . . .</div>
-                </div>
-                <div className='img-div'>
-                    <img className='img' src='https://static.wixstatic.com/media/0a8802f2cb234551bc855be44c0f34de.jpg/v1/fill/w_460,h_320,al_c,q_80,usm_0.66_1.00_0.01/Experts%20Panel.webp' />
-                </div>
-           </div>
-                </div>
-            </div>
+            
 
         </div>
     )

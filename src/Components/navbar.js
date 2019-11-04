@@ -17,8 +17,13 @@ class MyNavbar extends React.Component {
                     <img className='logo-img' src='https://static.wixstatic.com/media/8011f8_903df46983f3413ba1a3db736da14a49~mv2.png/v1/fill/w_50,h_59,al_c,q_80,usm_0.66_1.00_0.01/Screenshot%202019-08-05%20at%2012_30_41%20PM.webp' />
                 </div>
                 <div className='title-btn-div'>
+                    <div className='nav-title-div'>
                 <div className='nav-title'>
-                    Controller Millitary Accounts (QC), Quetta Cantt
+                    Controller Millitary Accounts
+                </div>
+                <div className='nav-subtitle'>
+                Quetta Command
+                </div>
                 </div>
                 <div className='nav-btn-div'>
                     <button className='nav-btn'>Get In Touch</button>
@@ -60,7 +65,6 @@ class MyNavbar extends React.Component {
 
                             <Nav.Link className='links' href="#link">Facilation Center</Nav.Link>
                             
-                            <Nav.Link disabled className='number' href="#link">081 9202326</Nav.Link>
 
                             
                         </Nav>

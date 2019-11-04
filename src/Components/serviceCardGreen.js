@@ -6,7 +6,7 @@ import './serviceCardGreen.css'
 function ServiceCardGreen(props) {
     console.log(props);
     return (
-        <div className="card-padding">
+        <a href={props.link} className="card-padding">
 
                 <div className="background-color">
                         <div className="align-icon">
@@ -24,7 +24,7 @@ function ServiceCardGreen(props) {
                    
                 </div>
 
-        </div>
+        </a>
     )
 }
 

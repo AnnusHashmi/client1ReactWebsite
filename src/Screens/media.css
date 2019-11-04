@@ -31,3 +31,71 @@ background-image: none;
     flex-wrap: wrap;
     padding: 30px;
 }
+.folders{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+.fold-heading{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #547d28;
+    color: white;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 150px;
+}
+.event-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+
+}
+.event{
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 20px #575757;
+}
+.event-text{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+.event-subtext{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+.media-photos-head{
+    /* border: 1px solid black; */
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    background-color: #547d28;
+}
+.infolder-title{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 1px solid; */
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.back-icon-div{
+    color: white;
+}

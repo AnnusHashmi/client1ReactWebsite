@@ -53,6 +53,10 @@ box-shadow: 3px 5px 20px #575757;
     overflow: scroll;
     
 }
+/* .circulars::-webkit-scrollbar {
+    width: 0px;
+    position: absolute;
+    } */
 .table-headings{
     border-bottom: 1px solid;
     display: flex;
@@ -164,6 +168,9 @@ background-color: #547d28;
     color: white;
     padding: 5px;
     text-decoration: none;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
     /* transition: 1s; */
     /* scroll-behavior: smooth; */
 }
@@ -296,8 +303,77 @@ font-weight: bold;
 .shortc-duration-head, .shortc-duration{
     width: 10%;
 }
+
+.compc-sno-head , .compc-sno{
+    width:10% ;
+    border:0.5px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.compc-sno{
+    font-weight: 500;
+    font-size: 16px;
+}
+.compc-cname-head, .compc-cname{
+    width:30%;
+    border: 0.5px solid black;
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;  
+}
+.compc-cname{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.compc-month-head, .compc-month{
+    width:10% ;
+    border:0.5px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.compc-month{
+    font-weight: 500;
+    font-size: 16px;
+}
+.compc-level-head, .compc-level{
+    width:10% ;
+    border:0.5px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.compc-level{
+    font-weight: 500;
+    font-size: 16px;
+}
+.compc-duration-head , .compc-duration{
+    width:10% ;
+    border:0.5px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.compc-date-head,.compc-date{
+    width:15% ;
+    border:0.5px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.compc-duration ,.compc-date{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+
+/* achievements styling */
+
 .achievements-div{
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -319,6 +395,80 @@ font-weight: bold;
 
 }
 
+
 @media only screen and (max-width:960px){
 
+    .compc-duration-head,.compc-level-head,.compc-cname-head,.compc-duration-head,.compc-date-head
+    ,.compc-month-head,.compc-sno-head,.compc-station-head,.shortc-duration-head,.shortc-level-head
+    ,.shortc-cname-head,.shortc-duration-head,.shortc-date-head
+    ,.shortc-month-head,.shortc-sno-head,.shortc-station-head{
+        font-size: 14px;
+    }
+    .mati-heading{
+        text-align: start;
+        /* font-size: 14px; */
+    }
+    .news-sidebar{
+        width: 30%;
+    }
+
+}
+
+
+@media only screen and (max-width:850px){
+
+    .notification-head, .sno-head,.date-head{
+        font-size: 14px;
+    }
+
+
+}
+@media only screen and (max-width:750px){
+
+    .news-sec-block{
+        flex-direction: column;
+    }
+    .news-third-block{
+        flex-direction: column;
+    }
+    .news-sidebar{
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        margin: 0px;
+    }
+    .circulars-div{
+        width: 100%;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .news-menu-div, .news-mati-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    .news-menu-div{
+        border-right: 1px solid white;
+    }
+    .mati-heading{
+        text-align: center;
+    }
+    .useful-links-div, .cma-links-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding: 10px;
+    }
+    .cma-links-div{
+        border-left: 1px solid white;
+      
+    }
+    .courses-heading,.courses-subheading{
+        text-align: center;
+    }
 }

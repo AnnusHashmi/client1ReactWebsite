@@ -55,7 +55,6 @@ function Downloads() {
 
 
             <div className="downloads-sec-block">
-
                     <Row>
 
                         <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Application Form" text="(Hiring)" /> </Col>

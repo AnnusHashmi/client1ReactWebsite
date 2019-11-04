@@ -19,36 +19,54 @@ function Home() {
                     <h3 className='home-subtitle'>Expect Great Changes</h3>
                 </div>
                 <div className='btn-div' >
-                    <button className='btn'>
+                    <a href='#more' className='btn'>
                         Tell me more
-                    </button>
+                    </a>
                 </div>
                 </div>
                 </div>
                 </div>
                 <div className='home-noti-div'>
-                    <div className='imp-alert-div'>
-                    <div class='alerts-div'>
-                        <div className='alerts-heading'>News update Alerts</div>
-                        <div className='alerts'>
-                            No Alerts right now
-                        </div>
+                   <div className='imp-alerts-div'>
+                    <div className='alert-head'>
+                        Alerts
                     </div>
-                    <div className='imp-links-div'>
-                        <div className='links-heading'>Important links</div>
-                        <div className='imp-links'>
-                            No links right now
-                        </div>
+                    <div className='imp-alerts'>
+                        No alerts right now
                     </div>
+                   </div>
+                   <div className='news-sidebar'>
+                <div className='useful-links-div'>
+                    <div className='mati-heading'>Useful Links</div>
+                    <div className='useful-links'>
+                        <a className='useful-news-links' href='http://www.pakistan.gov.pk'>Government of Pakistan</a>
+                        <a className='useful-news-links' href='http://www.agp.gov.pk'>Auditor General of Pakistan</a>
+                        <a className='useful-news-links' href='http://www.mod.gov.pk'>Ministry of Defence</a>
+                        <a className='useful-news-links' href='http://www.finance.gov.pk'>Ministry of Finance</a>
+                        <a className='useful-news-links' href='http://www.establishment.gov.pk'>Establishment Division</a>
                     </div>
-                    <div className='orders-div'>
-                         <div className='orders-heading'>Orders</div>
-                    <div className='orders'>
-                         No orders right now 
+
+            </div>
+            </div>
+            <div className='news-sidebar'>
+            <div className='cma-links-div'>
+                    <div className='mati-heading'>CMA Links</div>
+                    <div className='useful-links'>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/#'>Controller Military Account (RC) Rawalpindi</a>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/op'>Controller Military Account (OP) Rawalpindi</a>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/cmap'>Controller Military Account (pension) Lahore</a>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/cladp'>Controller Local Audit (DP) Rawalpindi</a>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/caaf'>Controller Accounts of AirForce (CAAF) Peshawar</a>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/#'>Controller Local Audit (DS) Lahore</a>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/mc'>Controller Military Accounts (MC) Multan</a>
                     </div>
+
+            </div>
+    
+                
+            </div>
                     </div>
-                    </div>
-                <div className='sec-block'> 
+                <div id='more' className='sec-block'> 
                     <div className='image-div'>
                         <img src='https://static.wixstatic.com/media/8011f8_01e4818052854700ab9577c0eeae2145~mv2_d_2100_1500_s_2.jpg/v1/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01/5x7%20(1)_JPG.webp'
                         className='image'
@@ -87,7 +105,7 @@ function Home() {
                     mapElement={<div style={{ height: `100%` }} />}
                     />
                     </div>
-                    <div className='contact-div'>
+                    <div id='contact' className='contact-div'>
                         <div className='contact-heading'>Contact</div>
                         <div className='contact-address'>CMA Complex, Malik Kabir Road, Quetta Cantt.</div>
                         <div className='contact-address'>info.cma.qc@gmail.com</div>
