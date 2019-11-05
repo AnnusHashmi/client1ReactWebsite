@@ -63,6 +63,8 @@ class MyNavbar extends React.Component {
                             
                             <Nav.Link onClick={this.goto.bind(this,'/news')} className='links' href="#link">News</Nav.Link>
 
+                            <Nav.Link onClick={this.goto.bind(this,'/contact')} className='links' href="#link">Contact</Nav.Link>
+
                             <Nav.Link className='links' href="#link">Facilation Center</Nav.Link>
                             
 

@@ -4,14 +4,17 @@
     height: 120%;
   }
 
-.heading-style{
+.font-style{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+.heading-style{
     padding-bottom: 100px;
     color: rgba(21, 122, 21, 0.829);
 }
 
 .team-heading-style{
-
+    padding-top: 20px;
     padding-bottom: 50px;
     color: whitesmoke;
     text-align: center;
@@ -24,20 +27,12 @@
     text-align: justify;
     line-height: 1.6;
 }
-.container-games{
-    background-color: #43740A;    
-    padding: 0.1em 30px;
-}
-.team-padding{
-    padding: 50px 70px;
-    text-align: center;
+.backgroundColor{
+    background-color: #547d28;   
+    margin: 20px;
+    padding-bottom: 30px;
 }
 
-.card-style{
-    background-color: #43740A;    
-    color: whitesmoke;
-    border-style: none;
-}
 .picture-shadow{
     box-shadow: 15px 15px;
 }
@@ -46,3 +41,24 @@
     box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.486), 0 10px 25px 0 rgba(0, 0, 0, 0.486);
     text-align: center;
   }
+.img-left {
+    float: left;
+    width: 50%;
+}
+.text-style-team{
+    color: rgba(245, 245, 245, 0.822);
+    
+}
+.padding-top-name{
+    padding-top: 30px;
+}
+.h3{
+    padding-bottom: 20px;
+    text-align: right;
+}
+.h5{
+    text-align: right;
+}
+.padding-cards{
+    padding: 20px;
+}

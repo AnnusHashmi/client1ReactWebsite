@@ -36,29 +36,29 @@ function Home() {
                     </div>
                    </div>
                    <div className='news-sidebar'>
-                <div className='home-useful-links-div'>
-                    <div className='home-mati-heading'>Useful Links</div>
-                    <div className='home-useful-links'>
-                        <a className='home-useful-news-links' href='http://www.pakistan.gov.pk'>Government of Pakistan</a>
-                        <a className='home-useful-news-links' href='http://www.agp.gov.pk'>Auditor General of Pakistan</a>
-                        <a className='home-useful-news-links' href='http://www.mod.gov.pk'>Ministry of Defence</a>
-                        <a className='home-useful-news-links' href='http://www.finance.gov.pk'>Ministry of Finance</a>
-                        <a className='home-useful-news-links' href='http://www.establishment.gov.pk'>Establishment Division</a>
+                <div className='useful-links-div'>
+                    <div className='mati-heading'>Useful Links</div>
+                    <div className='useful-links'>
+                        <a className='useful-news-links' href='http://www.pakistan.gov.pk'>Government of Pakistan</a>
+                        <a className='useful-news-links' href='http://www.agp.gov.pk'>Auditor General of Pakistan</a>
+                        <a className='useful-news-links' href='http://www.mod.gov.pk'>Ministry of Defence</a>
+                        <a className='useful-news-links' href='http://www.finance.gov.pk'>Ministry of Finance</a>
+                        <a className='useful-news-links' href='http://www.establishment.gov.pk'>Establishment Division</a>
                     </div>
 
             </div>
             </div>
             <div className='news-sidebar'>
-            <div className='home-cma-links-div'>
-                    <div className='home-mati-heading'>CMA Links</div>
-                    <div className='home-useful-links'>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/#'>Controller Military Account (RC) Rawalpindi</a>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/op'>Controller Military Account (OP) Rawalpindi</a>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/cmap'>Controller Military Account (pension) Lahore</a>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/cladp'>Controller Local Audit (DP) Rawalpindi</a>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/caaf'>Controller Accounts of AirForce (CAAF) Peshawar</a>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/#'>Controller Local Audit (DS) Lahore</a>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/mc'>Controller Military Accounts (MC) Multan</a>
+            <div className='cma-links-div'>
+                    <div className='mati-heading'>CMA Links</div>
+                    <div className='useful-links'>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/#'>Controller Military Account (RC) Rawalpindi</a>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/op'>Controller Military Account (OP) Rawalpindi</a>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/cmap'>Controller Military Account (pension) Lahore</a>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/cladp'>Controller Local Audit (DP) Rawalpindi</a>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/caaf'>Controller Accounts of AirForce (CAAF) Peshawar</a>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/#'>Controller Local Audit (DS) Lahore</a>
+                        <a className='useful-news-links' href='http://www.pmad.gov.pk/mc'>Controller Military Accounts (MC) Multan</a>
                     </div>
 
             </div>

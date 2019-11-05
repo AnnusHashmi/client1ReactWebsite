@@ -18,7 +18,10 @@ function DownloadCardGreen(props) {
 
                         <div className="serviceCardtext">
                             {props.text}
+                        </div>
 
+                        <div className="serviceCardtext">
+                            {props.status}
                         </div>
 
                    

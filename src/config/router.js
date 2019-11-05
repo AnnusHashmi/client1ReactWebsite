@@ -15,6 +15,7 @@ import HumanResource from '../Screens/AboutUs/hr'
 import Organistion from '../Screens/AboutUs/OS'
 import Downloads from '../Screens/downloads'
 import News from '../Screens/new'
+import Contact from '../Screens/contact'
 import { BrowserRouter as Router , Route, Link} from 'react-router-dom'
 
 export default class Navigation extends Component{
@@ -43,6 +44,7 @@ state={
                 <Route path='/aboutus/organizationsetup' component={Organistion}/>
                 <Route path='/news' component={News}/>
                 <Route path='/Crousel' component={Crousel}/>
+                <Route path='/contact' component={Contact}/>
                 
                 {/* <Route path='/dashboard' render={(props)=><Dashboard {...props} dashboardon={()=>{this.setState({dashboard:true,RestDashboard:true})}} dashboardoff={()=>{
                     console.log('dashboard on');

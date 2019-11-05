@@ -29,7 +29,6 @@ function Internal() {
                         </Row>
                     </div>
             </div>
-            <Footer></Footer>
 
         </div>
     )

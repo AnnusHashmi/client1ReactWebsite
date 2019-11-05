@@ -30,10 +30,10 @@ function Downloads() {
                 </div>
                 <Row>
 
-                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Leave Application Form" text="(Casual & Annual)" /> </Col>
-                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Medical Treatment Application Form" text="(Self / Family) " /> </Col>
-                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Application of Retention of Accomodation" text="(Govt Accomodation)" /> </Col>
-                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Advances Form" text="(GPF, HBA, MCA etc.)" /> </Col>
+                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Leave Application Form" text="Casual & Annual" status = "(To be added soon)"/> </Col>
+                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Medical Treatment Application Form" text="Self / Family " status = "(To be added soon)"/> </Col>
+                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Application of Retention of Accomodation" text="Govt Accomodation" status = "(To be added soon)"/> </Col>
+                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Advances Form" text="GPF, HBA, MCA etc." status = "(To be added soon)"/> </Col>
 
                 </Row>
             </div>
@@ -43,10 +43,10 @@ function Downloads() {
             <div className="downloads-third-block">
                     <Row>
 
-                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Provisional Payment Application Form" text="Army Officers Payment Sections. . . ." /> </Col>
-                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Application Form" text="(Hajj, Umrah, Abroad)" /> </Col>
-                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Application Form" text="(Applying to other departments)" /> </Col>
-                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Advances Form" text="(Tenure Completion)" /> </Col>
+                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Provisional Payment Application Form" text="Army Officers Payment Sections. . . ." status = "(To be added soon)"/> </Col>
+                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Application Form" text="Hajj, Umrah, Abroad" status = "(To be added soon)"/> </Col>
+                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Application Form" text="Applying to other departments" status = "(To be added soon)"/> </Col>
+                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Advances Form" text="Tenure Completion" status = "(To be added soon)"/> </Col>
 
                     </Row>
                 
