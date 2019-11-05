@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import './contact.css'
 import MyMap from '../Components/MyMap'
 import {contactNumbers} from '../config/contactNumebers'
 
@@ -18,7 +19,7 @@ function Contact() {
 
 
 
-            <div id='shortCourses' className='shortc-div'>
+            <div id='shortCourses' className='contact-div'>
                     <div className='shortc-head'>
                         Contact Numbers
                     </div>
@@ -30,13 +31,13 @@ function Contact() {
                     <div className='shortc-cname-head'>
                     Name
                     </div>
-                    <div className='shortc-month-head'>
+                    <div className='contact-desig-head'>
                     Degisnation
                     </div>
-                    <div className='shortc-level-head'>
+                    <div className='contact-section-head'>
                     Section
                     </div>
-                    <div className='shortc-duration-head'>
+                    <div className='contact-num-head'>
                     Number
                     </div>
                 </div>
@@ -48,13 +49,13 @@ function Contact() {
                     <div className='shortc-cname'>
                     {e.Name}
                     </div>
-                    <div className='shortc-month'>
+                    <div className='contact-desig'>
                     {e.Degisnation}
                     </div>
-                    <div className='shortc-level'>
-                    {e.Section}
+                    <div className='contact-section'>
+                    {e.Section || '-'}
                     </div>
-                    <div className='shortc-duration'>
+                    <div className='contact-num'>
                     {e.Cell}
                     </div>
                 </div>
@@ -64,7 +65,7 @@ function Contact() {
                 </div>
 
 
-
+                <br/>
 
   <div className='third-block'>
                     <div className='third-nested-block'>

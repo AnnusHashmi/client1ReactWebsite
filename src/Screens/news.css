@@ -162,6 +162,7 @@ background-color: #547d28;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 
 }
 .news-links, .useful-news-links{
@@ -170,7 +171,7 @@ background-color: #547d28;
     text-decoration: none;
     width: 100%;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* transition: 1s; */
     /* scroll-behavior: smooth; */
 }
@@ -194,6 +195,10 @@ font-weight: bold;
 .courses-div{
     /* border: 1px solid black; */
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .courses-heading{
@@ -203,6 +208,7 @@ font-weight: bold;
     justify-content: center;
     align-items: center;
     padding: 10px;
+    width: 100%;
     font-weight: bolder;
 }
 .courses-subheading{
@@ -220,7 +226,8 @@ font-weight: bold;
     align-items: center;
     flex-direction: column;
     /* width: 100%; */
-    margin: 40px;
+    margin: 20px;
+    width:80%;
     box-shadow: 3px 5px 20px #575757;
     margin-top: 40px;
 }
@@ -235,10 +242,13 @@ font-weight: bold;
     width: 100%;
     color:white;
     padding: 20px;
-    width: 100%;
 }
 .shortc, .compc{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .shortc-table-heads, .shortc-table-items{
     display: flex;
@@ -275,8 +285,11 @@ font-weight: bold;
     justify-content: center;
     align-items: center;; 
 }
+.shortc-level , .shortc-level-head{
+    width: 10%;
+}
 .shortc-month-head, .shortc-month{
-    width:10%;
+    width:15%;
     border: 0.5px solid black;
     text-align: center;
     font-size:20px;
@@ -301,7 +314,7 @@ font-weight: bold;
     width:15%;
 }
 .shortc-duration-head, .shortc-duration{
-    width: 10%;
+    width: 20%;
 }
 
 .compc-sno-head , .compc-sno{
@@ -350,14 +363,14 @@ font-weight: bold;
     font-size: 16px;
 }
 .compc-duration-head , .compc-duration{
-    width:10% ;
+    width:15% ;
     border:0.5px solid black;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
 }
 .compc-date-head,.compc-date{
-    width:15% ;
+    width:20% ;
     border:0.5px solid black;
     text-align: center;
     font-size: 20px;
@@ -447,8 +460,12 @@ font-weight: bold;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
         width: 50%;
+    }
+    .news-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .news-menu-div{
         border-right: 1px solid white;
@@ -471,4 +488,17 @@ font-weight: bold;
     .courses-heading,.courses-subheading{
         text-align: center;
     }
+}
+
+
+@media only screen  and  (max-width:700px){
+
+.shortc-div , .compc-div{
+width: 100%;
+}
+
+
+
+
+
 }

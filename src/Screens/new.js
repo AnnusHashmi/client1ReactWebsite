@@ -165,9 +165,9 @@ function News() {
                     </div>
                     <div className='shortc'>
                 <div className='shortc-table-heads'>
-                    <div className='shortc-sno-head'>
+                    {/* <div className='shortc-sno-head'>
                     S. No.
-                    </div>
+                    </div> */}
                     <div className='shortc-cname-head'>
                     Course Name
                     </div>
@@ -186,9 +186,9 @@ function News() {
                 </div>
                 {shortCourse.map((e)=>{
                    return <div className='shortc-table-items'>
-                    <div className='shortc-sno'>
+                    {/* <div className='shortc-sno'>
                     {e.sno}
-                    </div>
+                    </div> */}
                     <div className='shortc-cname'>
                     {e.name}
                     </div>
@@ -213,9 +213,9 @@ function News() {
                     <div className='compc-head'>Computer Courses</div>
                     <div className='compc'>
                     <div className='shortc-table-heads'>
-                    <div className='compc-sno-head'>
+                    {/* <div className='compc-sno-head'>
                     S. No.
-                    </div>
+                    </div> */}
                     <div className='compc-cname-head'>
                     Course Name
                     </div>
@@ -237,9 +237,9 @@ function News() {
                 </div>
                 {computerCourse.map((e)=>{
                    return <div className='shortc-table-items'>
-                    <div className='compc-sno'>
+                    {/* <div className='compc-sno'>
                     {e.sno}
-                    </div>
+                    </div> */}
                     <div className='compc-cname'>
                     {e.name}
                     </div>
