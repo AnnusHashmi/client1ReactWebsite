@@ -196,11 +196,33 @@ text-align: center;
 padding: 10px;
 
 }
-.imp-alerts{
+.orders-div{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
+}
+
+.imp-alerts{
+    display: flex;
+    flex-direction: column;
     height: 100%;
+    overflow:scroll;
+    padding: 20px;
+}
+.alert-div{
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 1px solid gray;
+}
+.alert-text{
+
+}
+.alert-date{
+    text-align: end;
+    padding-right: 10px;
+    font-weight:700;
 }
 .home-useful-news-links{
     color: white;

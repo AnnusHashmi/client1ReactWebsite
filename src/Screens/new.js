@@ -2,9 +2,44 @@ import React from 'react';
 import ServiceCard from '../Components/serviceCards'
 import './news.css'
 import {shortCourse,computerCourse} from '../config/courses'
+import firebase from '../config/firebase'
 
-function News() {
+class News extends React.Component {
+    state={
+        pipfa:[],
+        tender:[]    
+    }
+componentDidMount(){
+    this.getPipfa();
+    this.getTender();
+}
+getPipfa(){
+    var arr=[];
+    firebase.firestore().collection('pipfaNotifications').get()
+    .then((data)=>{
+        data.forEach((e)=>{
+            arr.push(e.data());
+        })
+        console.log(arr,'arr');
+        this.setState({pipfa:arr})
+    })
+    .catch(e=>console.log(e))
+}
+getTender(){
+    var arr=[];
+    firebase.firestore().collection('tenderNotification').get()
+    .then((data)=>{
+        data.forEach((e)=>{
+            arr.push(e.data());
+        })
+        console.log(arr,'arr');
+        this.setState({tender:arr})
+    })
+    .catch(e=>console.log(e))
+} 
 
+    render(){
+        
     return (
 
         <div className="news-main-container">
@@ -40,35 +75,18 @@ function News() {
                         <div className='notification-head'>Notifications</div>
                         <div className='date-head'>date</div>
                     </div>
-                    <div className='circular'>
-                        <div className='sno'>1</div>
+                    {this.state.pipfa.map((e,i)=>{
+                        return <div className='circular'>
+                        <div className='sno'>{i+1}</div>
                         <div className='noti-text'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae.
+                            {e.pipfatext}
                         </div>
                         <div className='noti-date'>
-                            11/11/2019
+                            {e.pipfadate}
                         </div>
                     </div>
 
-                    <div className='circular'>
-                        <div className='sno'>1</div>
-                        <div className='noti-text'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae.
-                        </div>
-                        <div className='noti-date'>
-                            11/11/2019
-                        </div>
-                    </div>
-
-                    <div className='circular'>
-                        <div className='sno'>1</div>
-                        <div className='noti-text'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae.
-                        </div>
-                        <div className='noti-date'>
-                            11/11/2019
-                        </div>
-                    </div>
+                     })}
                 </div>
 
             </div>
@@ -113,35 +131,17 @@ function News() {
                         <div className='notification-head'>Notifications</div>
                         <div className='date-head'>date</div>
                     </div>
-                    <div className='circular'>
-                        <div className='sno'>1</div>
+                    {this.state.tender.map((e,i)=>{
+                    return <div className='circular'>
+                        <div className='sno'>{i+1}</div>
                         <div className='noti-text'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae.
+                       {e.tendertext}
                         </div>
                         <div className='noti-date'>
-                            11/11/2019
+                        {e.tenderdate}
                         </div>
                     </div>
-
-                    <div className='circular'>
-                        <div className='sno'>1</div>
-                        <div className='noti-text'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae.
-                        </div>
-                        <div className='noti-date'>
-                            11/11/2019
-                        </div>
-                    </div>
-
-                    <div className='circular'>
-                        <div className='sno'>1</div>
-                        <div className='noti-text'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae.
-                        </div>
-                        <div className='noti-date'>
-                            11/11/2019
-                        </div>
-                    </div>
+                    })}
                 </div>
 
             </div>
@@ -268,6 +268,7 @@ function News() {
 
         </div>
     )
+}
 }
 
 export default News;

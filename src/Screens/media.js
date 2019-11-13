@@ -5,18 +5,37 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Footer from './footer';
 import HoverImage from '../Components/HoverImage'
-
+import firebase from '../config/firebase'
 
 class Media extends React.Component {
 state={
-    flag:true
+    flag:true,
+    media:[],
+    album:{}
 }
-gotoPhotos(){
-    this.setState({flag:false});
+gotoPhotos(e){
+    this.setState({flag:false,album:e});
 }
 goback(){
     this.setState({flag:true})
 }
+componentDidMount(){
+    this.getMedia();
+}
+
+getMedia(){
+    var arr=[];
+firebase.firestore().collection('media').get()
+.then((data)=>{
+    data.forEach((e)=>{
+        arr.push(e.data());
+    })
+    console.log(arr,'arr');
+    this.setState({media:arr})
+})
+.catch(e=>console.log(e))
+}
+
 render(){
     
     return (
@@ -42,23 +61,13 @@ render(){
                     Events    
                     </div>
                     <div className='event-div'>
-                        <div onClick={this.gotoPhotos.bind(this)} className='event'>
-                            <HoverImage source='image1'/>
-                            <div className='event-text'>Text</div>
+                    {this.state.media.map((e,i)=>{
+                      return  <div key={i} onClick={this.gotoPhotos.bind(this,e)} className='event'>
+                            <HoverImage source={e.photos[0]}/>
+                            <div className='event-text'>{e.albumName}</div>
                             <div className='event-subtext'>click to see more photos of this event</div>
                         </div>
-
-                        <div onClick={this.gotoPhotos.bind(this)} className='event'>
-                            <HoverImage source='image1'/>
-                            <div className='event-text'>Text</div>
-                            <div className='event-subtext'>click to see more photos of this event</div>
-                        </div>
-
-                        <div className={this.gotoPhotos.bind(this)} className='event'>
-                            <HoverImage source='image1'/>
-                            <div className='event-text'>Text</div>
-                            <div className='event-subtext'>click to see more photos of this event</div>
-                        </div>
+                    })}
                     </div>
                 </div>
                 :
@@ -68,26 +77,13 @@ render(){
                     <i class="fa fa-arrow-left  fa-3x" aria-hidden="true"></i>
                 </div>
                 <div className='infolder-title'>
-                     Text   
+                     {this.state.album.albumName}   
                 </div>
                 </div>   
                 <div className='media-photos-div'>
-                    <HoverImage source='image1' />  
-                    <HoverImage source='image2' />  
-                    <HoverImage source='image3' />  
-                    <HoverImage source='image4' />  
-                    <HoverImage source='image5' />  
-                    <HoverImage source='image6' />  
-                    <HoverImage source='image7' />  
-                    <HoverImage source='image8' />  
-                    <HoverImage source='image9' />  
-                    <HoverImage source='image10' />  
-                    <HoverImage source='image12' />  
-                    <HoverImage source='image13' />  
-                    <HoverImage source='image14' />  
-                    <HoverImage source='image15' />  
-                    <HoverImage source='image16' />  
-                    <HoverImage source='image17' />  
+                {this.state.album.photos.map((e,i)=>{
+                   return <HoverImage source={e} />  
+                })} 
                 </div>
                 </div>
                 }

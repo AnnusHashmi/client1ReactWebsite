@@ -2,13 +2,90 @@ import React from 'react';
 import ServiceCard from '../Components/serviceCards'
 import './home.css'
 import MyMap from '../Components/MyMap'
+import firebase from '../config/firebase'
+import Swal from 'sweetalert2'
+class Home extends React.Component {
 
+state={
+    alerts:[],
+    orders:[],
+    name:'',
+    email:'',
+    subject:'',
+    message:''
 
-function Home() {
+}
+componentDidMount(){
+    this.getAlerts();
+    this.getOrders();
+}
 
+getAlerts(){
+    var arr=[];
+firebase.firestore().collection('alerts').get()
+.then((data)=>{
+    data.forEach((e)=>{
+        arr.push(e.data());
+    })
+    console.log(arr,'arr');
+    this.setState({alerts:arr})
+})
+.catch(e=>console.log(e))
+}
+
+getOrders(){
+    var arr=[];
+firebase.firestore().collection('orders').get()
+.then((data)=>{
+    data.forEach((e)=>{
+        arr.push(e.data());
+    })
+    console.log(arr,'arr');
+    this.setState({orders:arr})
+})
+.catch(e=>console.log(e))
+}
+
+sendmsg(){
+    console.log('sending msg');
+const {name,email,message,subject} = this.state;
+if(name!==''&&name!==' '&&email!==''&&email!==' '&&subject!==''&&subject!==' '&&message!==''&&message!==' '){
+    
+firebase.firestore().collection('messages').add({name,email,message,subject})
+.then((e)=>{
+    Swal.fire({
+        title: 'Success!',
+        text: 'Message send Successfully',
+        icon: 'success',
+        confirmButtonText: 'Ok'
+      })
+    console.log("message sent");
+})
+.catch((e)=>{
+    Swal.fire({
+        title: 'Error!',
+        text: e.message,
+        icon: 'error',
+        confirmButtonText: 'Ok'
+      })
+    console.log(e,'e');
+})
+}
+else{
+    Swal.fire({
+        title: 'Error!',
+        text: 'Fields should not be left empty',
+        icon: 'error',
+        confirmButtonText: 'Ok'
+      })
+}
+}
+
+    render(){
+    
     return (
 
-        <div className="main-container">
+        <div className="main-container home">
 
             <div className="home-first-block">
                 <div className="home-title-div">
@@ -32,7 +109,12 @@ function Home() {
                         Alerts
                     </div>
                     <div className='imp-alerts'>
-                        No alerts right now
+                        {this.state.alerts.map((e,i)=>{
+                            return <div key={i} className='alert-div'>
+                                    <div className='alert-text'>{i+1}) {e.alerttext}</div>
+                                    <div className='alert-date'>{e.alertdate}</div>
+                                  </div>
+                        })}
                     </div>
                    </div>
                    <div className='news-sidebar'>
@@ -91,6 +173,33 @@ function Home() {
                         </p>
                     </div>
                 </div>
+                <div className='orders-div'>
+
+                <div className='circulars-div'>
+                <div className='circulars-heading'>
+                    Important Circulars & Orders
+                </div>
+                <div className='circulars'>
+                    <div className='table-headings'>
+                        <div className='sno-head'>S.No.</div>
+                        <div className='notification-head'>Notifications</div>
+                        <div className='date-head'>date</div>
+                    </div>
+                    {this.state.orders.map((e,i)=>{
+                    return <div className='circular'>
+                        <div className='sno'>{i+1}</div>
+                        <div className='noti-text'>
+                       {e.ordertext}
+                        </div>
+                        <div className='noti-date'>
+                        {e.orderdate}
+                        </div>
+                    </div>
+                    })}
+                </div>
+
+            </div>
+            </div>
 
                 <div className='third-block'>
                     <div className='third-nested-block'>
@@ -111,13 +220,13 @@ function Home() {
                         <div className='contact-address'>info.cma.qc@gmail.com</div>
                         <div className='contact-address'>081 9202326</div>
                     <div className='form'>
-                        <input className='input' placeholder='Name'/>
-                        <input className='input' placeholder='Email'/>
-                        <input className='input' placeholder='Subject'/>
-                        <textarea placeholder='Type your message here...' className='mul-input' rows = "5" cols = "60" name = "description">
+                        <input onChange={(e)=>this.setState({name:e.target.value})} className='input' placeholder='Name'/>
+                        <input onChange={(e)=>this.setState({email:e.target.value})} className='input' placeholder='Email'/>
+                        <input onChange={(e)=>this.setState({subject:e.target.value})} className='input' placeholder='Subject'/>
+                        <textarea onChange={(e)=>this.setState({message:e.target.value})} placeholder='Type your message here...' className='mul-input' rows = "5" cols = "60" name = "description">
                         </textarea>
                         <div className='sb-btn-div'>
-                        <button className='sb-btn'>Submit</button>
+                        <button onClick={this.sendmsg.bind(this)} className='sb-btn'>Submit</button>
                         </div>
                         <div className='thanks-msg'>Thanks For Submitting</div>
                     </div> 
@@ -129,5 +238,5 @@ function Home() {
         </div>
     )
 }
-
+}
 export default Home;
