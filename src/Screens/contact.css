@@ -56,3 +56,53 @@
     font-size: 16px;
     font-weight: 500;
 }
+
+
+@media only screen and (max-width:670px){
+    
+#contact-main-div, #shortCourses, #contact-head-div{
+ width: 100%;   
+ margin: 0px;
+ padding: 0px;
+}
+#contact-head-div{
+    padding: 20px;
+    text-align: center;
+}
+#contacts-head{
+    font-size: 50px;
+    text-align: center;
+}
+#icon-div{
+    width: 200px;
+    text-align: center;
+}
+#contact-first-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact-sno{
+    display: none;
+}
+#contact-desig-head, #contact-desig{
+width: 25%;
+}
+#contact-sec-head, #contact-sec{
+    width: 20%;
+}
+#contact-desig-head{
+    font-size: 16px;
+    font-weight: 500;
+}
+#contact-desig, #contact-name , #contact-sec,#contact-num{
+    font-size: 14px;
+
+} 
+
+#contact-desig-head, #contact-name-head , #contact-sec-head,#contact-num-head{
+    font-size: 14px;
+    font-weight: 500;
+} 
+}

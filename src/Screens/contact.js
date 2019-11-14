@@ -10,52 +10,52 @@ function Contact() {
     return(
         <div>
 
-            <div className='news-first-block'>
-            <div className = "news-icon-div">
+            <div id='contact-first-block' className='news-first-block'>
+            <div id='icon-div' className = "news-icon-div">
                     <i class="fa fa-check-circle  fa-5x" aria-hidden="true"></i>
                 </div>
-                <div className='news-heading'>Contacts</div>
+                <div id='contacts-head' className='news-heading'>Contacts</div>
             </div>
 
 
 
             <div id='shortCourses' className='contact-div'>
-                    <div className='shortc-head'>
+                    <div id='contact-head-div' className='shortc-head'>
                         Contact Numbers
                     </div>
-                    <div className='shortc'>
+                    <div id='contact-main-div' className='shortc'>
                 <div className='shortc-table-heads'>
-                    <div className='shortc-sno-head'>
+                    <div id='contact-sno' className='shortc-sno-head'>
                     S. No.
                     </div>
-                    <div className='shortc-cname-head'>
+                    <div id='contact-name-head' className='shortc-cname-head'>
                     Name
                     </div>
-                    <div className='contact-desig-head'>
+                    <div id='contact-desig-head' className='contact-desig-head'>
                     Degisnation
                     </div>
-                    <div className='contact-section-head'>
+                    <div id='contact-sec-head' className='contact-section-head'>
                     Section
                     </div>
-                    <div className='contact-num-head'>
+                    <div id='contact-num-head' className='contact-num-head'>
                     Number
                     </div>
                 </div>
                 {contactNumbers.map((e)=>{
                    return <div className='shortc-table-items'>
-                    <div className='shortc-sno'>
+                    <div id='contact-sno' className='shortc-sno'>
                     {e.sno}
                     </div>
-                    <div className='shortc-cname'>
+                    <div id='contact-name' className='shortc-cname'>
                     {e.Name}
                     </div>
-                    <div className='contact-desig'>
+                    <div id='contact-desig' className='contact-desig'>
                     {e.Degisnation}
                     </div>
-                    <div className='contact-section'>
+                    <div id='contact-sec' className='contact-section'>
                     {e.Section || '-'}
                     </div>
-                    <div className='contact-num'>
+                    <div id='contact-num' className='contact-num'>
                     {e.Cell}
                     </div>
                 </div>
