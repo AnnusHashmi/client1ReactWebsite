@@ -135,6 +135,18 @@ width:100%;
     width: 100%;
 }
 
+
+@media only screen and (max-width: 985px) {
+    .dropLinks{
+        background-color: #e4e4e4;
+        color: black;    
+    }
+    .dropLinks:any-link{
+        background-color: #e4e4e4;
+        color: black;
+    }
+}
+
 @media only screen and (max-width: 860px) {
     .nav-title{
         font-size: 30px;
