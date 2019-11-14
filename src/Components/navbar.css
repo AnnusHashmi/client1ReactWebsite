@@ -114,7 +114,12 @@ width:100%;
     display: flex;
     align-self: center;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+
+}
+.dropLinks:any-link{
+    background-color: #547d28;
+    color: white;
 }
 .number{
     align-self: flex-end;

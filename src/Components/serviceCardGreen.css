@@ -22,6 +22,10 @@
     padding: 10px;
     /* border: 1px solid black; */
     margin:20px;
+
+}
+.card-padding:hover{
+text-decoration: none;
 }
 .card-padding:visited{
     color: white;
