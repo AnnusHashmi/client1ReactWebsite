@@ -116,7 +116,7 @@
         name:'Audit Report Writing',
         level:'B 11 - 18',
         duration:'2 days',
-        dates:'12-06-19 to 13-05-19',
+        dates:'12-06-19 to 13-06-19',
         month:'june'
     },
     {
@@ -124,7 +124,7 @@
         name:'Budget and Control over Expenditure',
         level:'B 11 - 18',
         duration:'2 days',
-        dates:'17-06-19 to 18-05-19',
+        dates:'17-06-19 to 18-06-19',
         month:'june'
     },
     {
@@ -132,7 +132,7 @@
         name:'Short Course for Naib Qasid',
         level:'B 1 - 4',
         duration:'1 days',
-        dates:'19-06-19 to 19-05-19',
+        dates:'19-06-19 to 19-06-19',
         month:'june'
     },
     {
@@ -140,11 +140,186 @@
         name:'Training of UAs/AUAs (RSPA)',
         level:'B 11 - 18',
         duration:'5 days',
-        dates:'24-06-19 to 28-05-19',
+        dates:'24-06-19 to 28-06-19',
         month:'june'
     },
-
- ]
+    {
+        sno:'19',
+        name:'Function of "M" Section',
+        level:'B 11 - 18',
+        duration:'2 days',
+        dates:'02-07-19 to 03-07-19',
+        month:'july'
+    },
+    {
+        sno:'19',
+        name:'Conduct & Discipline Rules (WorkShop)',
+        level:'B 11 - 18',
+        duration:'3 days',
+        dates:'09-07-19 to 11-07-19',
+        month:'july'
+    },
+    {
+        sno:'19',
+        name:'Course on Income Tax',
+        level:'B 11 - 18',
+        duration:'2 days',
+        dates:'16-07-19 to 17-07-19',
+        month:'july'
+    },
+    {
+        sno:'19',
+        name:'Daftri Urdu Course',
+        level:'B 11 - 18',
+        duration:'3 days',
+        dates:'23-07-19 to 25-07-19',
+        month:'july'
+    },
+    {
+        sno:'19',
+        name:'Noting & Drafting Skills (Workshop)',
+        level:'B 11 - 18',
+        duration:'4 days',
+        dates:'05-08-19 to 08-08-19',
+        month:'Aug'
+    },
+    {
+        sno:'19',
+        name:'Function of "D" Section',
+        level:'B 11 - 18',
+        duration:'2 days',
+        dates:'20-08-19 to 21-08-19',
+        month:'Aug'
+    },
+    {
+        sno:'19',
+        name:'Function of MRC Section',
+        level:'B 11 - 18',
+        duration:'3 days',
+        dates:'27-08-19 to 29-08-19',
+        month:'Aug'
+    },
+    {
+        sno:'19',
+        name:'Public Procurement',
+        level:'B 11 - 18',
+        duration:'2 days',
+        dates:'04-09-19 to 05-09-19',
+        month:'Sep'
+    },
+    {
+        sno:'19',
+        name:'Requirement and Documentation for Retirement (Civilian)',
+        level:'B 11 - 18',
+        duration:'1 days',
+        dates:'10-09-19 to 10-09-19',
+        month:'Sep'
+    },
+    {
+        sno:'19',
+        name:'Training of Drawing and Disbursing Officers',
+        level:'B 11 - 18',
+        duration:'3 days',
+        dates:'18-09-19 to 20-09-19',
+        month:'Sep'
+    },
+    {
+        sno:'19',
+        name:'Travelling Allowance Rules',
+        level:'B 11 - 18',
+        duration:'5 days',
+        dates:'07-10-19 to 11-10-19',
+        month:'Oct'
+    },
+    {
+        sno:'19',
+        name:"Cost Accounting in POF & CNA's office",
+        level:'B 11 - 18',
+        duration:'3 days',
+        dates:'15-10-19 to 17-10-19',
+        month:'Oct'
+    },
+    {
+        sno:'19',
+        name:'Short Course for Driver',
+        level:'B 11 - 18',
+        duration:'1 days',
+        dates:'22-10-19 to 22-10-19',
+        month:'Oct'
+    },
+    {
+        sno:'19',
+        name:'Interpersonal Skills Management',
+        level:'B 11 - 18',
+        duration:'3 days',
+        dates:'23-10-19 to 25-10-19',
+        month:'Oct'
+    },
+    {
+        sno:'19',
+        name:'Pay Fixation',
+        level:'B 11 - 18',
+        duration:'5 days',
+        dates:'04-11-19 to 08-11-19',
+        month:'Nov'
+    },
+    {
+        sno:'19',
+        name:'Short Course for Naib Qasid',
+        level:'B 11 - 18',
+        duration:'1 days',
+        dates:'13-11-19 to 13-11-19',
+        month:'Nov'
+    },
+    {
+        sno:'19',
+        name:'Post Audit of Bills & Vouchers',
+        level:'B 11 - 18',
+        duration:'2 days',
+        dates:'20-11-19 to 21-11-19',
+        month:'Nov'
+    },
+    {
+        sno:'19',
+        name:'Course on Performance Evaluation Report (PERs/ACRs)',
+        level:'B 11 - 18',
+        duration:'3 days',
+        dates:'26-11-19 to 28-11-19',
+        month:'Nov'
+    },
+    {
+        sno:'19',
+        name:'Primary Course in Accounting Skills',
+        level:'B 11 - 18',
+        duration:'3 days',
+        dates:'03-11-19 to 05-11-19',
+        month:'Dec'
+    },
+    {
+        sno:'19',
+        name:'Orientation Course for Naval Officers',
+        level:'Lt./Lt.Cdr',
+        duration:'4 days',
+        dates:'10-11-19 to 13-11-19',
+        month:'Dec'
+    },
+    {
+        sno:'19',
+        name:'Training of unit Accountant (R.S.P.A)',
+        level:'B 11 - 18',
+        duration:'5 days',
+        dates:'16-11-19 to 20-11-19',
+        month:'Dec'
+    },
+    {
+        sno:'19',
+        name:'DSOP/GP Fund Rules',
+        level:'B 11 - 18',
+        duration:'2 days',
+        dates:'26-11-19 to 27-11-19',
+        month:'Dec'
+    },
+]
 
 
  const computerCourse=[
@@ -238,6 +413,52 @@
         month:'aug',
         station:'MATI Rawalpindi only'
     },
+    {
+        sno:'11',
+        name:'Course on Advance Excel',
+        level:'B 11 - 18',
+        duration:'05 days',
+        dates:'16-09-19 to 20-09-19',
+        month:'sep',
+        station:'All MATIs'
+    },
+    {
+        sno:'12',
+        name:'Office Automation',
+        level:'B 11 - 18',
+        duration:'10 days',
+        dates:'14-10-19 to 25-10-19',
+        month:'Oct',
+        station:'All MATIs'
+    },
+    {
+        sno:'13',
+        name:'Office Automation',
+        level:'B 11 - 18',
+        duration:'10 days',
+        dates:'18-11-19 to 28-11-19',
+        month:'Nov',
+        station:'All MATIs except Rwp'
+    },
+    {
+        sno:'14',
+        name:'Audit Command Language (ACL)',
+        level:'B 11 - 18',
+        duration:'10 days',
+        dates:'18-11-19 to 28-11-19',
+        month:'Nov',
+        station:'MATIs Rawalpindi Only'
+    },
+    ,
+    {
+        sno:'15',
+        name:'Course on Advance Excel',
+        level:'B 11 - 18',
+        duration:'05 days',
+        dates:'09-12-19 to 13-12-19',
+        month:'Dec',
+        station:'All MATIs'
+    }
  ]
 
 
