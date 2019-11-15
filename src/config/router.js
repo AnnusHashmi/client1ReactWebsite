@@ -30,26 +30,26 @@ state={
             <MyNavbar/>
             <div style={{backgroundColor:'white'}}>
 
-                <Route exact path='/' component={Home}/>
-                <Route exact path='/Ventures' component={Ventures}/>
-                <Route exact path='/Media' component={Media}/>
-                <Route exact path='/downloads' component={Downloads}/>
-                <Route path='/services/preaudit' component={PreAudit}/>
-                <Route path='/services/civilPension' component={CivilPension}/>
-                <Route path='/services/internalaudit' component={InternalAudit} />
-                <Route path='/services/Postaudit' component={PostAudit}/>
-                <Route path='/services/adminSection' component={Admin}/>
-                <Route path='/aboutus/teamMembers' component={AboutUs}/>
-                <Route path='/aboutus/humanResource' component={HumanResource}/>
-                <Route path='/aboutus/organizationsetup' component={Organistion}/>
-                <Route path='/news' component={News}/>
-                <Route path='/Crousel' component={Crousel}/>
-                <Route path='/contact' component={Contact}/>
+                <Route exact path='/qc' component={Home}/>
+                <Route exact path='/qc/Ventures' component={Ventures}/>
+                <Route exact path='/qc/Media' component={Media}/>
+                <Route exact path='/qc/downloads' component={Downloads}/>
+                <Route path='/qc/services/preaudit' component={PreAudit}/>
+                <Route path='/qc/services/civilPension' component={CivilPension}/>
+                <Route path='/qc/services/internalaudit' component={InternalAudit} />
+                <Route path='/qc/services/Postaudit' component={PostAudit}/>
+                <Route path='/qc/services/adminSection' component={Admin}/>
+                <Route path='/qc/aboutus/teamMembers' component={AboutUs}/>
+                <Route path='/qc/aboutus/humanResource' component={HumanResource}/>
+                <Route path='/qc/aboutus/organizationsetup' component={Organistion}/>
+                <Route path='/qc/news' component={News}/>
+                <Route path='/qc/Crousel' component={Crousel}/>
+                <Route path='/qc/contact' component={Contact}/>
                 
                 {/* <Route path='/dashboard' render={(props)=><Dashboard {...props} dashboardon={()=>{this.setState({dashboard:true,RestDashboard:true})}} dashboardoff={()=>{
                     console.log('dashboard on');
                     this.setState({dashboard:false})}}/>} /> */}
-                <Route path='/preAudit' component={PreAudit} />
+                <Route path='/qc/preAudit' component={PreAudit} />
 
                 {/* <Route exact path='/RestaurantDashboard' render={(props)=><RestaurantDashboard {...props} RestDashboardon={()=>{this.setState({RestDashboard:true,dashboard:true})}} restdashboardoff={()=>{this.setState({RestDashboard:false})}}/>}/> */}
                 </div> 
