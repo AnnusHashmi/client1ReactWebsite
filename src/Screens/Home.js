@@ -104,7 +104,7 @@ else{
                 </div>
                 </div>
                 <div className='home-noti-div'>
-                   <div className='imp-alerts-div'>
+                   <div id='imp-alert' className='imp-alerts-div'>
                     <div className='alert-head'>
                         Alerts
                     </div>
@@ -117,7 +117,7 @@ else{
                         })}
                     </div>
                    </div>
-                   <div className='news-sidebar'>
+                   <div id='sidebar' className='news-sidebar'>
                 <div className='home-useful-links-div'>
                     <div className='home-mati-heading'>Useful Links</div>
                     <div className='home-useful-links'>
@@ -127,11 +127,6 @@ else{
                         <a className='home-useful-news-links' href='http://www.finance.gov.pk'>Ministry of Finance</a>
                         <a className='home-useful-news-links' href='http://www.establishment.gov.pk'>Establishment Division</a>
                     </div>
-
-            </div>
-            </div>
-            <div className='news-sidebar'>
-            <div className='home-cma-links-div'>
                     <div className='home-mati-heading'>CMA Links</div>
                     <div className='home-useful-links'>
                         <a className='home-useful-news-links' href='http://www.pmad.gov.pk/#'>Controller Military Account (RC) Rawalpindi</a>
@@ -144,9 +139,15 @@ else{
                     </div>
 
             </div>
+            </div>
+            {/* <div className='news-sidebar'>
+            <div className='home-cma-links-div'>
+                   
+
+            </div>
     
                 
-            </div>
+            </div> */}
                     </div>
                 <div id='more' className='sec-block'> 
                     <div className='image-div'>
