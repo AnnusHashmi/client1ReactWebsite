@@ -87,7 +87,7 @@ else{
 
         <div className="main-container home">
 
-            <div className="home-first-block">
+            {/* <div className="home-first-block">
                 <div className="home-title-div">
                 <div className='home-title'>
                 <div className='home-title1'>Controller Military Accounts </div>
@@ -95,13 +95,18 @@ else{
                 <div className='home-subtitle-div'>
                     <h3 className='home-subtitle'>Expect Great Changes</h3>
                 </div>
+                <div className='btn-div' >
+                    <a href='#more' className='btn'>
+                        Tell me more
+                    </a>
                 </div>
                 </div>
                 </div>
+                </div> */}
                 <div className='home-noti-div'>
                    <div id='imp-alert' className='imp-alerts-div'>
                     <div className='alert-head'>
-                        News Alerts
+                        Alerts
                     </div>
                     <div className='imp-alerts'>
                         {this.state.alerts.map((e,i)=>{
@@ -112,39 +117,7 @@ else{
                         })}
                     </div>
                    </div>
-                <div id='sidebar' className='news-sidebar'>
-                <div className='home-useful-links-div'>
-                    <div className='home-mati-heading'>Useful Links</div>
-                    <div className='home-useful-links'>
-                        <a className='home-useful-news-links' href='http://www.pakistan.gov.pk'>Government of Pakistan</a>
-                        <a className='home-useful-news-links' href='http://www.agp.gov.pk'>Auditor General of Pakistan</a>
-                        <a className='home-useful-news-links' href='http://www.mod.gov.pk'>Ministry of Defence</a>
-                        <a className='home-useful-news-links' href='http://www.finance.gov.pk'>Ministry of Finance</a>
-                        <a className='home-useful-news-links' href='http://www.establishment.gov.pk'>Establishment Division</a>
-                    </div>
-                    <div className='home-mati-heading'>CMA Links</div>
-                    <div className='home-useful-links'>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/#'>Controller Military Account (RC) Rawalpindi</a>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/op'>Controller Military Account (OP) Rawalpindi</a>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/cmap'>Controller Military Account (pension) Lahore</a>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/cladp'>Controller Local Audit (DP) Rawalpindi</a>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/caaf'>Controller Accounts of AirForce (CAAF) Peshawar</a>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/#'>Controller Local Audit (DS) Lahore</a>
-                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/mc'>Controller Military Accounts (MC) Multan</a>
-                    </div>
-
-            </div>
-            </div>
-            {/* <div className='news-sidebar'>
-            <div className='home-cma-links-div'>
-                   
-
-            </div>
-    
-                
-            </div> */}
-                    </div>
-                <div id='more' className='sec-block'> 
+                   <div id='more' className='sec-block'> 
                     <div className='image-div'>
                         <img src='https://static.wixstatic.com/media/8011f8_01e4818052854700ab9577c0eeae2145~mv2_d_2100_1500_s_2.jpg/v1/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01/5x7%20(1)_JPG.webp'
                         className='image'
@@ -170,6 +143,68 @@ else{
                     </div>
                 </div>
 
+                   <div id='sidebar' className='news-sidebar'>
+                <div className='home-useful-links-div'>
+                <div className='home-mati-heading'>CMA Links</div>
+                    <div className='home-useful-links'>
+                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/#'>Controller Military Account (RC) Rawalpindi</a>
+                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/op'>Controller Military Account (OP) Rawalpindi</a>
+                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/cmap'>Controller Military Account (pension) Lahore</a>
+                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/cladp'>Controller Local Audit (DP) Rawalpindi</a>
+                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/caaf'>Controller Accounts of AirForce (CAAF) Peshawar</a>
+                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/#'>Controller Local Audit (DS) Lahore</a>
+                        <a className='home-useful-news-links' href='http://www.pmad.gov.pk/mc'>Controller Military Accounts (MC) Multan</a>
+                    </div>
+                    <div className='home-mati-heading'>Useful Links</div>
+                    <div className='home-useful-links'>
+                        <a className='home-useful-news-links' href='http://www.pakistan.gov.pk'>Government of Pakistan</a>
+                        <a className='home-useful-news-links' href='http://www.agp.gov.pk'>Auditor General of Pakistan</a>
+                        <a className='home-useful-news-links' href='http://www.mod.gov.pk'>Ministry of Defence</a>
+                        <a className='home-useful-news-links' href='http://www.finance.gov.pk'>Ministry of Finance</a>
+                        <a className='home-useful-news-links' href='http://www.establishment.gov.pk'>Establishment Division</a>
+                    </div>
+                    
+
+            </div>
+            </div>
+            {/* <div className='news-sidebar'>
+            <div className='home-cma-links-div'>
+                   
+
+            </div>
+    
+                
+            </div> */}
+                    </div>
+                
+                <div className='orders-div'>
+
+                <div className='circulars-div'>
+                <div className='circulars-heading'>
+                    Important Circulars & Orders
+                </div>
+                <div className='circulars'>
+                    <div className='table-headings'>
+                        <div className='sno-head'>S.No.</div>
+                        <div className='notification-head'>Notifications</div>
+                        <div className='date-head'>date</div>
+                    </div>
+                    {this.state.orders.map((e,i)=>{
+                    return <div className='circular'>
+                        <div className='sno'>{i+1}</div>
+                        <div className='noti-text'>
+                       {e.ordertext}
+                        </div>
+                        <div className='noti-date'>
+                        {e.orderdate}
+                        </div>
+                    </div>
+                    })}
+                </div>
+
+            </div>
+            </div>
+
                 <div className='third-block'>
                     <div className='third-nested-block'>
                         
@@ -184,7 +219,7 @@ else{
                     />
                     </div>
                     <div id='contact' className='contact-div'>
-                        <div className='contact-heading'>Feedback</div>
+                        <div className='contact-heading'>Contact</div>
                         <div className='contact-address'>CMA Complex, Malik Kabir Road, Quetta Cantt.</div>
                         <div className='contact-address'>info.cma.qc@gmail.com</div>
                         <div className='contact-address'>081 9202326</div>
