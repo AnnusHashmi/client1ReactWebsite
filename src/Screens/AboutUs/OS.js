@@ -7,7 +7,7 @@ function Organistion() {
 
     return(
         <div className = 'container-games'>
-            <div className='heading-div'> <div  className = 'heading-style'>Organistional Setup</div>
+            <div className='heading-div'> <div  className = 'heading-style'>Organizational Setup</div>
             </div>
             <div className = 'chart-align'>
                 <Row>

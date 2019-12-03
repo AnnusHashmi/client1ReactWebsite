@@ -21,10 +21,10 @@ function PostAudit() {
                     <div>
                         <Row>
 
-                            <Col sm={6} md={6} lg={3}> <ServiceCard title="Post Audit" post-title = "Army Officers" text="Army Officers Payment Sections. . . ."  /> </Col>
-                            <Col sm={6} md={6} lg={3}> <ServiceCard title="Post Audit 1" post-title = "JCO/ Soldiers" text=" JCO / Soldiers Payment Sections  . . .  " /> </Col>
-                            <Col sm={6} md={6} lg={3}> <ServiceCard title="Post Audit 2" post-title = "FGEI (C/G)" text="Civilian Payment Sections. . ." /> </Col>
-                            <Col sm={6} md={6} lg={3}> <ServiceCard title="Post Audit" post-title = "Army Officers" text="Pay and Allowances for FGEI Teachers and Staff. . . " /> </Col>
+                            <Col sm={6} md={6} lg={3}> <ServiceCard title="ATL" post-title = "Army Officers" text="Army Officers Payment Sections. . . ."  /> </Col>
+                            <Col sm={6} md={6} lg={3}> <ServiceCard link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FM-Section.docx?alt=media&token=85f8c3db-9af9-4732-8cc1-ad679339eec5' title="M-section" post-title = "JCO/ Soldiers" text="Click to download for further information" /> </Col>
+                            <Col sm={6} md={6} lg={3}> <ServiceCard link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FE-Section.docx?alt=media&token=cc24268f-d444-4148-8a05-5bae9daed9b8' title="E-section" post-title = "FGEI (C/G)" text="Click to download for further information" /> </Col>
+                            <Col sm={6} md={6} lg={3}> <ServiceCard title="TA-Recoup" post-title = "Army Officers" text="Pay and Allowances for FGEI Teachers and Staff. . . " /> </Col>
 
                         </Row>
                     </div>

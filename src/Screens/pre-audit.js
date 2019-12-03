@@ -78,10 +78,10 @@ function PreAudit () {
                 </div>
 
                 <Row>
-                    <Col sm={6} md={6} lg={3}> </Col>
+                    <Col sm={6} md={6} lg={3}> <ServiceCardGreen  title="FEGI-Section" text="Click to download for further detail "/></Col>
                     <Col sm={6} md={6} lg={3}> <ServiceCardGreen link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FSTORE%20SECTION.docx?alt=media&token=352773c1-db4c-4dbb-b12c-cda148131b39' title="Store Section" text="Click to download for further detail "/> </Col>
                     <Col sm={6} md={6} lg={3}> <ServiceCardGreen link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FE-Section.docx?alt=media&token=cc24268f-d444-4148-8a05-5bae9daed9b8' title="E-Section" text="Click to download for further detail "/> </Col>
-                    <Col sm={6} md={6} lg={3}> </Col>
+                    <Col sm={6} md={6} lg={3}> <ServiceCardGreen link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FM-Section.docx?alt=media&token=85f8c3db-9af9-4732-8cc1-ad679339eec5' title="M-Section" text="Click to download for further detail "/></Col>
 
                 </Row>
             </div>

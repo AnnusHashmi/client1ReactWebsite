@@ -95,18 +95,13 @@ else{
                 <div className='home-subtitle-div'>
                     <h3 className='home-subtitle'>Expect Great Changes</h3>
                 </div>
-                <div className='btn-div' >
-                    <a href='#more' className='btn'>
-                        Tell me more
-                    </a>
-                </div>
                 </div>
                 </div>
                 </div>
                 <div className='home-noti-div'>
                    <div id='imp-alert' className='imp-alerts-div'>
                     <div className='alert-head'>
-                        Alerts
+                        News Alerts
                     </div>
                     <div className='imp-alerts'>
                         {this.state.alerts.map((e,i)=>{
@@ -117,7 +112,7 @@ else{
                         })}
                     </div>
                    </div>
-                   <div id='sidebar' className='news-sidebar'>
+                <div id='sidebar' className='news-sidebar'>
                 <div className='home-useful-links-div'>
                     <div className='home-mati-heading'>Useful Links</div>
                     <div className='home-useful-links'>
@@ -174,33 +169,6 @@ else{
                         </p>
                     </div>
                 </div>
-                <div className='orders-div'>
-
-                <div className='circulars-div'>
-                <div className='circulars-heading'>
-                    Important Circulars & Orders
-                </div>
-                <div className='circulars'>
-                    <div className='table-headings'>
-                        <div className='sno-head'>S.No.</div>
-                        <div className='notification-head'>Notifications</div>
-                        <div className='date-head'>date</div>
-                    </div>
-                    {this.state.orders.map((e,i)=>{
-                    return <div className='circular'>
-                        <div className='sno'>{i+1}</div>
-                        <div className='noti-text'>
-                       {e.ordertext}
-                        </div>
-                        <div className='noti-date'>
-                        {e.orderdate}
-                        </div>
-                    </div>
-                    })}
-                </div>
-
-            </div>
-            </div>
 
                 <div className='third-block'>
                     <div className='third-nested-block'>
@@ -216,7 +184,7 @@ else{
                     />
                     </div>
                     <div id='contact' className='contact-div'>
-                        <div className='contact-heading'>Contact</div>
+                        <div className='contact-heading'>Feedback</div>
                         <div className='contact-address'>CMA Complex, Malik Kabir Road, Quetta Cantt.</div>
                         <div className='contact-address'>info.cma.qc@gmail.com</div>
                         <div className='contact-address'>081 9202326</div>

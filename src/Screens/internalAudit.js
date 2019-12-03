@@ -20,12 +20,7 @@ function Internal() {
 
                     <div>
                         <Row>
-
-                            <Col sm={6} md={6} lg={3}> <ServiceCard title="Internal Audit" post-title = "Army Officers" text="Army Officers Payment Sections. . . ."  /> </Col>
-                            <Col sm={6} md={6} lg={3}> <ServiceCard title="Internal Audit" post-title = "JCO/ Soldiers" text=" JCO / Soldiers Payment Sections  . . .  " /> </Col>
-                            <Col sm={6} md={6} lg={3}> <ServiceCard title="Internal Audit" post-title = "FGEI (C/G)" text="Civilian Payment Sections. . ." /> </Col>
-                            <Col sm={6} md={6} lg={3}> <ServiceCard title="Internal Audit" post-title = "Army Officers" text="Pay and Allowances for FGEI Teachers and Staff. . . " /> </Col>
-
+                            <Col sm={12} md={12} lg={12}> <ServiceCard title="ATL"  text="Click to download for further information"  /> </Col>
                         </Row>
                     </div>
             </div>

@@ -19,7 +19,6 @@ import Footer from '../footer'
                     <Col lg = {1} sm={1}> </Col>
                 </Row>
             </div>
-            <Footer></Footer>
         </div>
     );
 }

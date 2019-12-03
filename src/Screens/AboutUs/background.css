@@ -1,0 +1,26 @@
+.bg-heading-align{
+    text-align: center;
+    color: #547d28;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.bg-container-games{
+    padding: 0.1em 30px;
+}
+.bg-img-right{
+    float: right;
+    width: 90%;
+    height: 100%;
+  }
+.bg-picture-shadow{
+    box-shadow: 15px 15px;
+}
+
+.bg-text-setting{
+    font-size: 20px;
+    text-align: justify;
+}
+.footerpadding{
+    padding-bottom: 40px;
+}

@@ -17,6 +17,7 @@ import Downloads from '../Screens/downloads'
 import News from '../Screens/new'
 import Contact from '../Screens/contact'
 import { BrowserRouter as Router , Route, Link} from 'react-router-dom'
+import Background from '../Screens/AboutUs/background'
 
 export default class Navigation extends Component{
 state={
@@ -39,6 +40,7 @@ state={
                 <Route path='/services/internalaudit' component={InternalAudit} />
                 <Route path='/services/Postaudit' component={PostAudit}/>
                 <Route path='/services/adminSection' component={Admin}/>
+                <Route path='/aboutus/background' component={Background}/>
                 <Route path='/aboutus/teamMembers' component={AboutUs}/>
                 <Route path='/aboutus/humanResource' component={HumanResource}/>
                 <Route path='/aboutus/organizationsetup' component={Organistion}/>
