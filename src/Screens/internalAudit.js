@@ -20,7 +20,9 @@ function Internal() {
 
                     <div>
                         <Row>
-                            <Col sm={12} md={12} lg={12}> <ServiceCard title="ATL"  text="Click to download for further information"  /> </Col>
+                            <Col sm={12} md={12} lg={12}> 
+                            <ServiceCard link = 'https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FATL%20SECTION%5B1027%5D.docx?alt=media&token=66a71e51-372f-4cda-b931-6af04fd6458f' title="ATL" text="Click to download for further information"  /> 
+                            </Col>
                         </Row>
                     </div>
             </div>

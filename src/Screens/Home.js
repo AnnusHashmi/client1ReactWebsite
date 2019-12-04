@@ -129,9 +129,6 @@ else{
                     <div className='sec-block-title'>
                         (Quetta Command)
                     </div>
-                    <div className='sec-block-title2'>
-                    February 11, 2023
-                    </div>
                     <div className='first-para'>
                         <p className='first-para-text'>
                     Pakistan Military Accounts Department (PMAD) is an attached Department of Ministry of Defence mainly responsible for making payments to the Armed Forces, maintaining accounts thereof and rendering financial advice to defence authorities. It also has a well established internal audit mechanism in the form of Local Audit offices 
@@ -177,33 +174,7 @@ else{
             </div> */}
                     </div>
                 
-                <div className='orders-div'>
-
-                <div className='circulars-div'>
-                <div className='circulars-heading'>
-                    Important Circulars & Orders
-                </div>
-                <div className='circulars'>
-                    <div className='table-headings'>
-                        <div className='sno-head'>S.No.</div>
-                        <div className='notification-head'>Notifications</div>
-                        <div className='date-head'>date</div>
-                    </div>
-                    {this.state.orders.map((e,i)=>{
-                    return <div className='circular'>
-                        <div className='sno'>{i+1}</div>
-                        <div className='noti-text'>
-                       {e.ordertext}
-                        </div>
-                        <div className='noti-date'>
-                        {e.orderdate}
-                        </div>
-                    </div>
-                    })}
-                </div>
-
-            </div>
-            </div>
+                
 
                 <div className='third-block'>
                     <div className='third-nested-block'>
