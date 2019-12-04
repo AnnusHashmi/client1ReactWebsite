@@ -26,7 +26,7 @@ class MyNavbar extends React.Component {
                 </div>
                 </div>
                 <div className='nav-btn-div'>
-                    <button className='nav-btn'>Get In Touch</button>
+                    <button onClick={this.goto.bind(this,'/contact')} className='nav-btn'>Get In Touch</button>
                 </div>
                 </div>
             </div>

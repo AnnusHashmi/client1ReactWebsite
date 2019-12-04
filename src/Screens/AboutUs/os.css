@@ -17,8 +17,19 @@
     height: 80%;
     align-content: center;
     align-items: center;
+    /* border: 1px solid black; */
 }
 .container-games{ 
     padding: 0.1em 30px;
     background-color: white;
+}
+
+.ostree{
+    width: 80%;
+    height: 500px;
+}
+.colume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -26,7 +26,7 @@ function Background() {
             
                 <Col lg = {5}>
                 <div>
-                    <img src={img2} className='bg-img-right bg-picture-shadow'/>
+                    <img src='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/photos%2Fbackground.jpeg?alt=media&token=4c1fe2d6-23ae-4676-9135-ff47f10e6a1f' className='bg-img-right bg-picture-shadow'/>
                 </div>
                 </Col>
                 <Col lg = {1}></Col>
