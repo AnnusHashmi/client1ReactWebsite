@@ -190,7 +190,7 @@ else{
                     />
                     </div>
                     <div id='contact' className='contact-div'>
-                        <div className='contact-heading'>Contact</div>
+                        <div className='contact-heading'>Feedback</div>
                         <div className='contact-address'>CMA Complex, Malik Kabir Road, Quetta Cantt.</div>
                         <div className='contact-address'>info.cma.qc@gmail.com</div>
                         <div className='contact-address'>081 9202326</div>
@@ -203,7 +203,7 @@ else{
                         <div className='sb-btn-div'>
                         <button onClick={this.sendmsg.bind(this)} className='sb-btn'>Submit</button>
                         </div>
-                        <div className='thanks-msg'>Thanks For Submitting</div>
+                        <div className='thanks-msg'>Thankyou for your feedback</div>
                     </div> 
                     </div>
 
