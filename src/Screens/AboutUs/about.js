@@ -16,9 +16,14 @@ function AboutUs() {
         <div >
 
             {/* MY TEAM PARTY */}
-
+            <div className='tm-first-block'>
+            <div className = "tm-icon-div">
+                    <i class="fa fa-check-circle  fa-5x" aria-hidden="true"></i>
+                </div>
+                <div className='tm-heading'>Team Members</div>
+            </div>
             <div className=' backgroundColor'>
-                <div className='team-heading-style'><h1> The Team </h1></div>
+                
                 <div className='team-members-div'>
 
                     <div className='member-div'>

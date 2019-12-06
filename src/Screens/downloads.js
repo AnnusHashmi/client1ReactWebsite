@@ -12,16 +12,13 @@ function Downloads() {
 
     return (
         <div className="downloads-container-games">
+        <div className='down-first-block'>
+                <div className = "down-icon-div">
+                        <i class="fa fa-check-circle  fa-5x" aria-hidden="true"></i>
+                    </div>
+                <div className='down-heading'>Downloads</div>
 
-
-            <div className="downloads-first-block">
-                <div className="downloads-heading">
-                    Downloads
-            </div>
-                <div className='downloads-subheading'>
-                    Click below links to Download
-            </div>
-            </div>
+        </div>
             <div className='downloads-sec-block'>
                 <div className='downloads-sec-heading'>
                     Forms

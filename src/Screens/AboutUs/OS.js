@@ -7,7 +7,11 @@ function Organistion() {
 
     return(
         <div className = 'container-games'>
-            <div className='heading-div'> <div  className = 'heading-style'>Organizational Setup</div>
+            <div className='os-first-block'>
+            <div className = "os-icon-div">
+                    <i class="fa fa-check-circle  fa-5x" aria-hidden="true"></i>
+                </div>
+                <div className='os-heading'>Organizational Setup</div>
             </div>
             <div className = 'chart-align'>
 

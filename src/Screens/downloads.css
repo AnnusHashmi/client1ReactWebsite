@@ -1,4 +1,19 @@
-
+.down-first-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2C947;
+    height: 400px;
+    margin-bottom: 40px;
+    }
+.down-heading{
+        font-size: 90px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+.down-icon-div{
+        padding: 30px;
+    }
 .downloads-first-block{
     background-color: #547d28;
     color: white;

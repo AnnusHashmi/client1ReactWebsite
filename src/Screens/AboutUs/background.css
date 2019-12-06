@@ -1,9 +1,21 @@
-.bg-heading-align{
-    text-align: center;
-    color: #547d28;
-    padding: 30px;
-    font-size: 40px;
-}
+
+.bg-first-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2C947;
+    height: 400px;
+    margin-bottom: 40px;
+    }
+.bg-heading{
+        font-size: 90px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+.bg-icon-div{
+        padding: 30px;
+        color: black;
+    }
 
 .bg-container-games{
     padding: 0.1em 30px;
@@ -18,7 +30,7 @@
 }
 
 .bg-text-setting{
-    font-size: 20px;
+    font-size: 19px;
     text-align: justify;
 }
 .footerpadding{

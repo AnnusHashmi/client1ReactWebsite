@@ -9,7 +9,12 @@ import Footer from '../footer'
 
     return(
         <div className = 'container-games'>
-            <div> <h1  className = 'heading-style'>Human Resource</h1></div>
+            <div className='hr-first-block'>
+            <div className = "hr-icon-div">
+                    <i class="fa fa-check-circle  fa-5x" aria-hidden="true"></i>
+                </div>
+                <div className='hr-heading'>Human Resource</div>
+            </div>
             <div className = 'chart'>
                 <div className='chart-heads'>
                     <div className='chart-sno-head'>S.No.</div>

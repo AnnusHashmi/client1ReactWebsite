@@ -7,7 +7,12 @@ function Background() {
 
     return(
         <div className = 'bg-container-games'>
-            <h2 className = 'bg-heading-align'>BACKGROUND</h2>
+            <div className='bg-first-block'>
+            <div className = "bg-icon-div">
+                    <i class="fa fa-check-circle  fa-5x" aria-hidden="true"></i>
+                </div>
+                <div className='bg-heading'>Background</div>
+            </div>
 
             <Row>
                 <Col lg = {1}></Col>

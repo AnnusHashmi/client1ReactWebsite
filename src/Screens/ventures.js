@@ -30,15 +30,14 @@ getVentures(){
     return (
 
         <div className="main-container">
-            <div className='first-block'>
-                <div className='title'>
-                Ventures
+
+                <div className='ven-first-block'>
+                <div className = "ven-icon-div">
+                        <i class="fa fa-check-circle  fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div className='ven-heading'>Ventures</div>
+
                 </div>
-                <div className='para'>
-                The Military Accountant General as well as the Chief Controller Military Accounts have assigned multiples tasks to this office, in order to 
-                improve service delivery and smooth functioning of the Pakistan Military Accounts Department.
-                </div>
-            </div>
             {this.state.ventures.map((e,i)=>{
 
                return  <div key={i} className='card'>

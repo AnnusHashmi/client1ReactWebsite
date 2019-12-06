@@ -1,8 +1,19 @@
-.heading-style{
-    text-align: center;
-    color: #43740A; 
-    padding-bottom: 70px;
-}
+.hr-first-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2C947;
+    height: 400px;
+    margin-bottom: 40px;
+    }
+    .hr-heading{
+        font-size: 90px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .hr-icon-div{
+        padding: 30px;
+    }
 .chart{
     /* border: 1px solid black; */
     display: flex;

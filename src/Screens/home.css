@@ -90,25 +90,26 @@ font-size:12px;
     /* border: 1px solid black; */
 }
 .sec-block-title{
-    font-size: 30px;
+    font-size: 25px;
     /* font-weight: bold; */
     font-family: 'Times New Roman', Times, serif;
     color:white;
     text-align: center;
+    padding: 5px;
 }
 .sec-block-title2{
     color:white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    padding: 5px;
+    font-size: 18px;
+    padding: 6px;
 }
 .first-para{
     color:white;
     width: 70%;
-    text-align: center;
+    text-align: justify;
 }
 .first-para-text{
-    font-size: 12px;
+    font-size: 15px;
 }
 .third-block{
     background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('../assets/image23.jpeg');
