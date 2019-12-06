@@ -165,7 +165,7 @@ background-color: #547d28;
 }
 .news-links, .useful-news-links{
     color: white;
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
     width: 100%;
     display: flex;
@@ -177,7 +177,7 @@ background-color: #547d28;
     color: white;
 }
 .useful-news-links{
-    font-size: 14px;
+    font-size: 16px;
 }
 .news-links:hover ,.useful-news-links:hover{
     color: white;
@@ -186,7 +186,8 @@ background-color: #547d28;
 }
 .mati-heading{
 text-align: center;
-font-size: 16px;
+font-size: 20px;
+border-bottom: solid;
 padding:10px;
 font-weight: bold;
 }

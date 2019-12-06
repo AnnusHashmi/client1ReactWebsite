@@ -14,7 +14,7 @@ class MyNavbar extends React.Component {
         <div className="navbar-div">
             <div className='navbar-top'>
                 <div className='logo-div'>
-                    <img className='logo-img' src='https://static.wixstatic.com/media/8011f8_903df46983f3413ba1a3db736da14a49~mv2.png/v1/fill/w_50,h_59,al_c,q_80,usm_0.66_1.00_0.01/Screenshot%202019-08-05%20at%2012_30_41%20PM.webp' />
+                    <img className='logo-img' src='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/photos%2Flogo.jpg?alt=media&token=4cdc8fea-1b49-4ddc-8971-aca1224628d0' />
                 </div>
                 <div className='title-btn-div'>
                     <div className='nav-title-div'>

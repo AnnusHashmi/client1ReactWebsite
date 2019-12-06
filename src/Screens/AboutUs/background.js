@@ -31,7 +31,7 @@ function Background() {
             
                 <Col lg = {5}>
                 <div>
-                    <img src='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/photos%2Fbackground.jpeg?alt=media&token=4c1fe2d6-23ae-4676-9135-ff47f10e6a1f' className='bg-img-right bg-picture-shadow'/>
+                    <img src='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/photos%2FIMG-20191206-WA0017.jpg?alt=media&token=54d3c9a3-694f-4b00-8bbd-43acc0945025' className='bg-img-right bg-picture-shadow'/>
                 </div>
                 </Col>
                 <Col lg = {1}></Col>
