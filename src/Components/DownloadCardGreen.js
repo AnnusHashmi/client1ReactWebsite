@@ -1,13 +1,13 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
-import './serviceCardGreen.css'
+import './downloadcardGreen.css'
 
 
 function DownloadCardGreen(props) {
     console.log(props);
     return (
-        <div className="card-padding">
-
+        <a href={props.link} download className="card-padding">
+            
                 <div className="background-color">
                         <div className="align-icon">
                         <i class="fa fa-download  fa-3x" aria-hidden="true"></i>
@@ -27,7 +27,7 @@ function DownloadCardGreen(props) {
                    
                 </div>
 
-        </div>
+        </a>
     )
 }
 

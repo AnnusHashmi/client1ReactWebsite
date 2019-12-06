@@ -22,7 +22,7 @@ class MyNavbar extends React.Component {
                     Controller Millitary Accounts
                 </div>
                 <div className='nav-subtitle'>
-                Quetta Command
+                (Quetta Command)
                 </div>
                 </div>
                 <div className='nav-btn-div'>

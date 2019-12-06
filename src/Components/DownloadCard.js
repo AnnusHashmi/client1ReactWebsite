@@ -1,12 +1,11 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card'
-import './serviceCards.css'
+import './downloadcard.css'
 
 
 function DownloadCard(props) {
     console.log(props);
     return(
-        <div className = "main-div ">
+        <a href={props.link} download className = "main-div ">
                     <div className = "icon-div">
                         <i className='icon' class="fa fa-download fa-3x" aria-hidden="true"></i>
                     </div>
@@ -24,7 +23,7 @@ function DownloadCard(props) {
 
                         
                 
-        </div>
+        </a>
     )
 }
 

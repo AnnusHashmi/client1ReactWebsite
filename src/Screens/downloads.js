@@ -1,13 +1,11 @@
 import React from 'react';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import ServiceCard from '../Components/serviceCards'
-import ServiceCardGreen from '../Components/serviceCardGreen'
 import './downloads.css'
 import ChecklistCard from '../Components/ChecklistCard'
 import DownloadCard from '../Components/DownloadCard'
 import DownloadCardGreen from '../Components/DownloadCardGreen'
-import Footer from './footer';
+
 
 
 function Downloads() {
@@ -30,10 +28,10 @@ function Downloads() {
                 </div>
                 <Row>
 
-                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Leave Application Form" text="Casual & Annual" status = "(To be added soon)"/> </Col>
-                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Medical Treatment Application Form" text="Self / Family " status = "(To be added soon)"/> </Col>
-                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Application of Retention of Accomodation" text="Govt Accomodation" status = "(To be added soon)"/> </Col>
-                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Advances Form" text="GPF, HBA, MCA etc." status = "(To be added soon)"/> </Col>
+                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FLeave%20application.docx?alt=media&token=2fae733b-5e86-42f5-b50f-063b384d3954' title="Leave Application Form" text="Casual & Annual" status = "Click to download"/> </Col>
+                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FMedical%20Application.docx?alt=media&token=bf148adf-e860-4bb0-a9c7-0c041c1c9a35' title="Medical Treatment Application Form" text="Self / Family " status = "Click to download"/> </Col>
+                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FAPPLICATION%20FOR%20RETENTION%20OF%20HOUSE.docx?alt=media&token=9482ff55-f93b-464c-b58b-614ce9cce5a9' title="Application of Retention of Accomodation" text="Govt Accomodation" status = "Click to download"/> </Col>
+                    <Col sm={6} md={6} lg={3}> <DownloadCardGreen link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FAPPLICATION%20HBA-MCA.docx?alt=media&token=c094e120-7774-4a7e-b1d4-88f3d5378dd2' title="Advances Form" text="GPF, HBA, MCA etc." status = "Click to download"/> </Col>
 
                 </Row>
             </div>
@@ -57,27 +55,16 @@ function Downloads() {
             <div className="downloads-sec-block">
                     <Row>
 
-                        <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Application Form" text="(Hiring)" /> </Col>
-                        <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Application Form" text="(De-Hiring)" /> </Col>
-                        <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Application Form" text="(Renewal of Hiring Contract)" /> </Col>
-                        <Col sm={6} md={6} lg={3}> <DownloadCardGreen title="Advances Form" text="(Change of Address for Hiring)" /> </Col>
+                        <Col sm={6} md={6} lg={4}> <DownloadCardGreen link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FApplication%20for%20Hiring.docx?alt=media&token=0d14f085-6585-4286-b41b-94df1046bc93' title="Application Form" text="(Hiring)" status = "Click to download"/> </Col>
+                        <Col sm={6} md={6} lg={4}> <DownloadCardGreen link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FApplication%20for%20De%20Hiring.docx?alt=media&token=19d8e951-881c-49fd-8319-b311c8a02e16'title="Application Form" text="(De-Hiring)" status = "Click to download"/> </Col>
+                        <Col sm={6} md={6} lg={4}> <DownloadCardGreen link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FApplication%20for%20Rehiring.docx?alt=media&token=03c01241-024e-40d3-8cde-60f3ac38bf8d' title="Application Form" text="(Renewal of Hiring Contract)" status = "Click to download"/> </Col>
                         
                     </Row>
               
             </div>
 
 
-            <div className="downloads-third-block">
-               
-                    <Row>
-
-                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Application Form" text="(Hiring)" /> </Col>
-                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Application Form" text="(De-Hiring)" /> </Col>
-                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Application Form" text="(Renewal of Hiring Contract)" /> </Col>
-                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Advances Form" text="(Change of Address for Hiring)" /> </Col>
-                    </Row>
-               
-            </div>
+           
 
             <div className='checklist-heading-div'>
                 Checklists
