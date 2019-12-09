@@ -126,7 +126,7 @@ else{
                     <div className='sec-block-title'>
                     Controller Military Accounts
                     </div>
-                    <div className='sec-block-title'>
+                    <div className='sec-block-subtitle'>
                         (Quetta Command)
                     </div>
                     <div className='first-para'>

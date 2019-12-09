@@ -42,19 +42,12 @@ render(){
 
         <div className="media-main-container">
 
-            <div className="media-first-block">
-                <div>
-                <div className = "media-icon-div">
+        <div className='media-first-block'>
+            <div className = "media-icon-div">
                     <i class="fa fa-check-circle  fa-5x" aria-hidden="true"></i>
                 </div>
-                </div>
-                <div className="media-title-div">
-                    <h1 className='media-title'>Media </h1>
-                </div>
-                <div className='subtitle-div'>
-                    <h3 className='subtitle'>Click thumbnail for full view</h3>
-                </div>
-                </div>
+                <div className='media-heading'>Media</div>
+            </div>
                 {this.state.flag?
                 <div className='folders'>
                     <div className='fold-heading'>

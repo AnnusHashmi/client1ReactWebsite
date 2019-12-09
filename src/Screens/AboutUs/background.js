@@ -6,13 +6,16 @@ import Col from 'react-bootstrap/Col'
 function Background() {
 
     return(
-        <div className = 'bg-container-games'>
+        <div>
             <div className='bg-first-block'>
             <div className = "bg-icon-div">
                     <i class="fa fa-check-circle  fa-5x" aria-hidden="true"></i>
                 </div>
                 <div className='bg-heading'>Background</div>
             </div>
+        
+        <div className = 'bg-container-games'>
+            
 
             <Row>
                 <Col lg = {1}></Col>
@@ -37,6 +40,7 @@ function Background() {
                 <Col lg = {1}></Col>
             </Row>
             <div className = 'footerpadding'></div>
+        </div>
         </div>
     );
 }

@@ -6,13 +6,15 @@ import './os.css'
 function Organistion() {
 
     return(
-        <div className = 'container-games'>
-            <div className='os-first-block'>
+        <div>
+        <div className='os-first-block'>
             <div className = "os-icon-div">
                     <i class="fa fa-check-circle  fa-5x" aria-hidden="true"></i>
                 </div>
                 <div className='os-heading'>Organizational Setup</div>
             </div>
+        <div className = 'container-games'>
+            
             <div className = 'chart-align'>
 
                 <Row>
@@ -24,6 +26,7 @@ function Organistion() {
                     <Col lg = {1} sm={1}> </Col>
                 </Row>
             </div>
+        </div>
         </div>
     );
 }

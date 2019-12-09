@@ -8,13 +8,15 @@ import Footer from '../footer'
     function HumanResource() {
 
     return(
-        <div className = 'container-games'>
+        <div>
             <div className='hr-first-block'>
             <div className = "hr-icon-div">
                     <i class="fa fa-check-circle  fa-5x" aria-hidden="true"></i>
                 </div>
                 <div className='hr-heading'>Human Resource</div>
             </div>
+        <div className = 'container-games'>
+            
             <div className = 'chart'>
                 <div className='chart-heads'>
                     <div className='chart-sno-head'>S.No.</div>
@@ -29,6 +31,7 @@ import Footer from '../footer'
                   </div>  
                     })}
                 </div>
+        </div>
         </div>
     );
 }

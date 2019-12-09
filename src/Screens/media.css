@@ -1,15 +1,18 @@
 .media-first-block{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     background-color: #F2C947;
     height: 400px;
-    background-image: none;
-    flex-direction: column;
+    }
+.media-heading{
+        font-size: 90px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+.media-icon-div{
+        padding: 30px;
+    }
 .media-title{
     font-size: 80px;
     font-family: 'Times New Roman', Times, serif;

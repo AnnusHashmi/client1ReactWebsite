@@ -80,7 +80,7 @@ font-size:12px;
     /* border: 1px solid red; */
     justify-content: center;
     align-items:center;
-    width: 30%;
+    width: 35%;
     padding: 20px;
 
 }
@@ -90,6 +90,14 @@ font-size:12px;
     /* border: 1px solid black; */
 }
 .sec-block-title{
+    font-size: 35px;
+    /* font-weight: bold; */
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+    padding: 5px;
+}
+.sec-block-subtitle{
     font-size: 25px;
     /* font-weight: bold; */
     font-family: 'Times New Roman', Times, serif;
@@ -109,7 +117,7 @@ font-size:12px;
     text-align: justify;
 }
 .first-para-text{
-    font-size: 15px;
+    font-size: 16px;
 }
 .third-block{
     background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('../assets/image23.jpeg');
