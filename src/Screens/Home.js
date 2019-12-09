@@ -181,8 +181,9 @@ else{
                         
                     <div className='map-div'>
                     <MyMap
+                    onClick={()=>{window.open('https://www.google.com/maps/place/The+City+School,+Quetta+Cantt+Campus-I/@30.2082979,67.038313,17z/data=!3m1!4b1!4m5!3m4!1s0x3ed2dfc4abc0130f:0x35942030febce42e!8m2!3d30.2082979!4d67.0405017')}}
                     isMarkerShown
-                    location={{ lat:30.2107328, lng:67.025957 }}
+                    location={{ lat:30.2082979, lng:67.038313 }}
                     googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
                     loadingElement={<div style={{ height: `100%` }} />}
                     containerElement={<div style={{ height: `600px` }} />}

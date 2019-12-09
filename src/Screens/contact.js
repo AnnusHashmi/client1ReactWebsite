@@ -73,7 +73,7 @@ function Contact() {
                     <div className='map-div'>
                     <MyMap
                     isMarkerShown
-                    location={{ lat:30.2107328, lng:67.025957 }}
+                    location={{ lat:30.2082979, lng:67.038313 }}
                     googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
                     loadingElement={<div style={{ height: `100%` }} />}
                     containerElement={<div style={{ height: `600px` }} />}
