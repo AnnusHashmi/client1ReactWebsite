@@ -21,7 +21,7 @@ height: 100%;
 }
 
 .alert-text, .alert-date{
-font-size:12px;
+font-size:16px;
 }
 
 .home-useful-links{
@@ -229,13 +229,15 @@ padding: 10px;
     height: 100%;
     overflow:scroll;
     padding: 20px;
-    padding-bottom:30px;
+    padding-bottom:20px;
+    
 }
 .alert-div{
     width:100%;
     /* padding: 3px; */
-    margin: 3px;
+    margin: 2px;
     border-bottom: 1px solid gray;
+    
 }
 
 .alert-date{
