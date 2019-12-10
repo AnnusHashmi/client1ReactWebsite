@@ -106,7 +106,7 @@ else{
                 <div className='home-noti-div'>
                    <div id='imp-alert' className='imp-alerts-div'>
                     <div className='alert-head'>
-                        Alerts
+                        News Updates
                     </div>
                     <div className='imp-alerts'>
                         {this.state.alerts.map((e,i)=>{
