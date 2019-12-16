@@ -3,17 +3,15 @@ import 'firebase/firestore'
 
 
 var firebaseConfig = {
-    apiKey: "AIzaSyBPUKA1din_xZnbkc6Br0i8ZQoqPTgzpDw",
-    authDomain: "controllermilitaryaccounts.firebaseapp.com",
-    databaseURL: "https://controllermilitaryaccounts.firebaseio.com",
-    projectId: "controllermilitaryaccounts",
-    storageBucket: "controllermilitaryaccounts.appspot.com",
-    messagingSenderId: "621422599478",
-    appId: "1:621422599478:web:29ce886a73081d24876797",
-    measurementId: "G-Y4G1LY8MG0"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+  apiKey: "AIzaSyD194iffPnAxOpIVQ7Pupyd0jlbBqWrd1E",
+  authDomain: "cmabackend.firebaseapp.com",
+  databaseURL: "https://cmabackend.firebaseio.com",
+  projectId: "cmabackend",
+  storageBucket: "cmabackend.appspot.com",
+  messagingSenderId: "763489474655",
+  appId: "1:763489474655:web:c4dd70e23574349a7023ea"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
   export default firebase

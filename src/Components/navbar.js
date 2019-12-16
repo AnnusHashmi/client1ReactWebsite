@@ -39,7 +39,7 @@ class MyNavbar extends React.Component {
 
                             <NavDropdown className='dropdowns' title="About Us" id="collasible-nav-dropdown">
                             <NavDropdown.Item onClick={this.goto.bind(this,'/aboutus/background')} className='dropLinks' href="#">Background</NavDropdown.Item>
-                                <NavDropdown.Item onClick={this.goto.bind(this,'/aboutus/teamMembers')} className='dropLinks' href="#">Team Members</NavDropdown.Item>
+                                {/* <NavDropdown.Item onClick={this.goto.bind(this,'/aboutus/teamMembers')} className='dropLinks' href="#">Team Members</NavDropdown.Item> */}
                                 <NavDropdown.Item onClick={this.goto.bind(this,'/aboutus/humanResource')} className='dropLinks' href="#">Human Resource</NavDropdown.Item>
                                 <NavDropdown.Item onClick={this.goto.bind(this,'/aboutus/organizationsetup')} className='dropLinks' href="#">Organizational Setup</NavDropdown.Item>
                                 {/* <NavDropdown.Divider />

@@ -41,7 +41,7 @@ state={
                 <Route path='/services/Postaudit' component={PostAudit}/>
                 <Route path='/services/adminSection' component={Admin}/>
                 <Route path='/aboutus/background' component={Background}/>
-                <Route path='/aboutus/teamMembers' component={AboutUs}/>
+                {/* <Route path='/aboutus/teamMembers' component={AboutUs}/> */}
                 <Route path='/aboutus/humanResource' component={HumanResource}/>
                 <Route path='/aboutus/organizationsetup' component={Organistion}/>
                 <Route path='/news' component={News}/>
