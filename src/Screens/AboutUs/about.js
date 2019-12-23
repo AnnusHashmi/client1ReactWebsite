@@ -1,7 +1,7 @@
 import React from 'react';
 import Row from 'react-bootstrap/Row'
 // import div from 'react-bootstrap/div'
-import siraziz from '../Images/siraziz.png'
+import siraziz from '../Images/sirAziz.jpeg'
 import sirsyed from '../Images/sirsyed.png'
 import sirsajjad from '../Images/sirsajjad.png'
 import sirraza from '../Images/sirraza.png'
@@ -51,7 +51,7 @@ function AboutUs() {
 
 
                 <div className='member-div'>
-                    <div class='member-img'>
+                    <div  class='member-img'>
                         <img src={siraziz} className='img-left' />
                     </div>
                     <div className='text-style-team padding-top-name'>
