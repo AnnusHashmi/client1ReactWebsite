@@ -38,8 +38,8 @@ function Downloads() {
             <div className="downloads-third-block">
                     <Row>
 
-                        <Col sm={6} md={6} lg={3}> <DownloadCard link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FPROVISIONAL%20PAYMENT%20APPLICATION%20FORM%20PMAD%20STAFF.docx?alt=media&token=ac33abb6-2e72-42fd-97d7-00799bbf1af0' title="Provisional Payment Application Form"  status = "Click to download"/> </Col>
-                        <Col sm={6} md={6} lg={3}> <DownloadCard link='https://firebasestorage.googleapis.com/v0/b/controllermilitaryaccounts.appspot.com/o/audit%20files%2FAPPLICATION%20FOR%20CORRECTION%20IN%20BANK%20ACCOUNT%20NO.docx?alt=media&token=d00f9352-5c33-4ce9-8382-918587f29bf6' title="Application for correction in Bank Account"  status = "Click To download"/> </Col>
+                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Provisional Payment Application Form" text="Army Officers Payment Sections. . . ." status = "(To be added soon)"/> </Col>
+                        <Col sm={6} md={6} lg={3}> <DownloadCard title="Application Form" text="Hajj, Umrah, Abroad" status = "(To be added soon)"/> </Col>
                         <Col sm={6} md={6} lg={3}> <DownloadCard title="Application Form" text="Applying to other departments" status = "(To be added soon)"/> </Col>
                         <Col sm={6} md={6} lg={3}> <DownloadCard title="Advances Form" text="Tenure Completion" status = "(To be added soon)"/> </Col>
 

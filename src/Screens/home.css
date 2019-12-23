@@ -21,7 +21,7 @@ height: 100%;
 }
 
 .alert-text, .alert-date{
-font-size:16px;
+font-size:12px;
 }
 
 .home-useful-links{
@@ -208,9 +208,9 @@ font-size:16px;
     box-shadow: 3px 5px 20px #575757;
 }
 .alert-head{
-font-size: 30px;
+font-size: 25px;
 background-color: #547d28;
-color:white;
+color:black;
 text-align: center;
 padding: 10px;
 
@@ -229,15 +229,13 @@ padding: 10px;
     height: 100%;
     overflow:scroll;
     padding: 20px;
-    padding-bottom:20px;
-    
+    padding-bottom:30px;
 }
 .alert-div{
     width:100%;
     /* padding: 3px; */
-    margin: 2px;
+    margin: 3px;
     border-bottom: 1px solid gray;
-    
 }
 
 .alert-date{
@@ -251,11 +249,11 @@ padding: 10px;
     text-decoration: none;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 100%;
     font-size: 16px;
-    text-align: center;
+    /* text-align: center; */
     /* border: 1px solid ; */
 }
 .home-useful-links{
