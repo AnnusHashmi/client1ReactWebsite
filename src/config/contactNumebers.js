@@ -25,24 +25,24 @@ const contactNumbers = [
 
     {
         sno : '4',
-        Name : 'Zahoor Ud Din',
+        Name : 'Zahid Ullah',
         Degisnation: 'Accounts Officer',
         Section: '',
-        Cell: '0321-8126155' 
+        Cell: '0333-9745292' 
     },
 
     {
         sno : '5',
-        Name : 'Muhammad Shaid',
+        Name : 'Iftikhar Ahmed',
         Degisnation: 'Accounts Officer',
         Section: '',
-        Cell: '0300-2553174' 
+        Cell: '03345503965' 
     },
 
     {
         sno : '6',
         Name : 'Abdul Khaliq',
-        Degisnation: 'Accounts Officer (C.C)',
+        Degisnation: 'Accounts Officer',
         Section: '',
         Cell: '0300-7838715' 
     },
@@ -50,7 +50,7 @@ const contactNumbers = [
     {
         sno : '7',
         Name : 'Hayat Ullah',
-        Degisnation: 'Accounts Officer (C.C)',
+        Degisnation: 'Accounts Officer ',
         Section: '',
         Cell: '0332-3706265' 
     },
@@ -58,7 +58,7 @@ const contactNumbers = [
     {
         sno : '8',
         Name : 'Rab Nawaz',
-        Degisnation: 'Accounts Officer (C.C)',
+        Degisnation: 'Accounts Officer',
         Section: '',
         Cell: '0300-3885411' 
     },

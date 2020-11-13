@@ -27,9 +27,7 @@ function AboutUs() {
                 <div className='team-members-div'>
 
                     <div className='member-div'>
-                        <div class='member-img'>
-                            <img src={sirsajjad} className='img-left ' />
-                        </div>
+                        
                         <div className='text-style-team padding-top-name'>
                             <h3 className='h3'>Sir Sajjad Hyder</h3>
                             <h5 className='h5'>Military Accountant General</h5>
@@ -37,9 +35,7 @@ function AboutUs() {
                     </div>
 
                     <div className='member-div'>
-                        <div class='member-img'>
-                        <img src={sirraza} className='img-left' />
-                    </div>
+                        
                     <div className='text-style-team padding-top-name'>
                         <h3 className='h3'>Khurram Raza Qureshi</h3>
                         <h5 className='h5'>Chief Controller Military Accounts</h5>
